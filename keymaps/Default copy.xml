@@ -24,5 +24,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
     <mouse-shortcut keystroke="alt button3 doubleClick" />
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
+    <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
 </keymap>
