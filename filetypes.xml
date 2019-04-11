@@ -1,7 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="allSkills.js" type="JavaScript" />
       <mapping pattern="SelfReducers.js" type="JavaScript" />
+      <mapping pattern="allSkills" type="Native" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping ext="properties" type="PLAIN_TEXT" />
