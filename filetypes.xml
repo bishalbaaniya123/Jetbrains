@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="VerticalStepper.js" type="JavaScript" />
       <mapping pattern="allSkills.js" type="JavaScript" />
       <mapping pattern="SelfReducers.js" type="JavaScript" />
       <mapping pattern="allSkills" type="Native" />
