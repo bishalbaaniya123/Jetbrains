@@ -20,6 +20,7 @@
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
   </action>
+  <action id="IntroduceField" />
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="ctrl alt quote" />
   </action>
@@ -28,5 +29,11 @@
     <mouse-shortcut keystroke="alt button3 doubleClick" />
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
     <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
+  <action id="ShowFilterPopup" />
+  <action id="ToggleBookmark" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="f11" />
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
 </keymap>

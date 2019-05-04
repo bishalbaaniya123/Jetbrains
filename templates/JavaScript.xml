@@ -1,0 +1,3 @@
+<templateSet group="JavaScript">
+  <template name="mapstate" value="const mapStateToProps = (state) =&gt; {&#10;    return {}&#10;};" description="prints map state to props" toReformat="false" toShortenFQNames="true" />
+</templateSet>
