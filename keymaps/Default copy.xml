@@ -20,10 +20,16 @@
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
   </action>
+  <action id="IncrementWindowWidth" />
   <action id="IntroduceField" />
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="ctrl alt quote" />
   </action>
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
+  </action>
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
     <mouse-shortcut keystroke="alt button3 doubleClick" />
@@ -31,6 +37,9 @@
     <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
   <action id="ShowFilterPopup" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
   <action id="ToggleBookmark" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
