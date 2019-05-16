@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="VerticalStepper.js" type="JavaScript" />
       <mapping pattern="allSkills.js" type="JavaScript" />
+      <mapping pattern="firstCapital.js" type="JavaScript" />
       <mapping pattern="SelfReducers.js" type="JavaScript" />
       <mapping pattern="allSkills" type="Native" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
