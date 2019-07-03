@@ -11,6 +11,7 @@
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping ext="properties" type="PLAIN_TEXT" />
       <mapping ext="php" type="PLAIN_TEXT" />
+      <mapping ext="otf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
