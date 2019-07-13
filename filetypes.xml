@@ -6,6 +6,7 @@
       <mapping pattern="nayan" type="JavaScript" />
       <mapping pattern="VerticalStepper.js" type="JavaScript" />
       <mapping pattern="allSkills.js" type="JavaScript" />
+      <mapping pattern="checkLogin" type="JavaScript" />
       <mapping pattern="SelfReducers.js" type="JavaScript" />
       <mapping pattern="allSkills" type="Native" />
       <mapping pattern=".roadhogrc" type="PLAIN_TEXT" />
