@@ -8,7 +8,6 @@
       <mapping pattern="SelfReducers.js" type="JavaScript" />
       <mapping pattern="allSkills" type="Native" />
       <mapping pattern=".roadhogrc" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping ext="properties" type="PLAIN_TEXT" />
       <mapping ext="php" type="PLAIN_TEXT" />
