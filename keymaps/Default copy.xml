@@ -4,6 +4,7 @@
     <mouse-shortcut keystroke="control button3 doubleClick" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
+  <action id="CIDR.Lang.IntroduceDefine" />
   <action id="CloseEditor">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -14,4 +15,15 @@
     <mouse-shortcut keystroke="control button143" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="IntroduceField" />
+  <action id="IntroduceProperty" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+  </action>
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
 </keymap>
