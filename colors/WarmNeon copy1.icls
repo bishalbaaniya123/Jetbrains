@@ -4,7 +4,7 @@
     <property name="created">2019-07-30T17:30:16</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2019-07-30T17:32:14</property>
+    <property name="modified">2019-07-31T15:45:32</property>
     <property name="originalScheme">WarmNeon copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -621,7 +621,7 @@
     </option>
     <option name="JAVA_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b44141" />
+        <option name="FOREGROUND" value="484b49" />
       </value>
     </option>
     <option name="JAVA_BRACES">
@@ -660,7 +660,7 @@
     </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="e54242" />
+        <option name="FOREGROUND" value="484b49" />
       </value>
     </option>
     <option name="JAVA_OPERATION_SIGN">
@@ -1269,7 +1269,7 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ff0000" />
+        <option name="FOREGROUND" value="c73c00" />
         <option name="BACKGROUND" value="402d39" />
       </value>
     </option>
