@@ -11,6 +11,7 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="ctrl alt quote" />
+    <keyboard-shortcut first-keystroke="ctrl 4" />
   </action>
   <action id="EditorDecreaseFontSize">
     <mouse-shortcut keystroke="control button142" />
@@ -20,6 +21,9 @@
   </action>
   <action id="EditorPasteFromX11" />
   <action id="EditorSelectWord" />
+  <action id="FileChooser.GotoModule" />
+  <action id="GotoBookmark3" />
+  <action id="GotoBookmark4" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
@@ -30,6 +34,7 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
+    <keyboard-shortcut first-keystroke="ctrl 3" />
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift ctrl x" />
