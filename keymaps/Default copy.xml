@@ -35,6 +35,7 @@
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
     <keyboard-shortcut first-keystroke="ctrl 3" />
+    <mouse-shortcut keystroke="control button2 doubleClick" />
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift ctrl x" />
