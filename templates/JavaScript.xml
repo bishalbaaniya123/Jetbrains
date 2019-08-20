@@ -1,3 +1,18 @@
 <templateSet group="JavaScript">
   <template name="mapstate" value="const mapStateToProps = (state) =&gt; {&#10;    return {}&#10;};" description="prints map state to props" toReformat="false" toShortenFQNames="true" />
+  <template name="conw" value="console.warn(&quot;$END$&quot;)" description="Console warn" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="se" value="this.setState({&#10;    $END$&#10;})" description="this.setState for react" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cdm" value="componentDidMount() {&#10;    $END$&#10;}" description="Component Did Mount" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
