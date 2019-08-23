@@ -5,7 +5,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="se" value="this.setState({&#10;    $END$&#10;})" description="this.setState for react" toReformat="false" toShortenFQNames="true">
+  <template name="se" value="this.setState({&#10;    $END$&#10;});" description="this.setState for react" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -21,6 +21,16 @@
     </context>
   </template>
   <template name="ts" value="this.state.$END$" description="this.state." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="te" value="&lt;Text&gt;&#10;    $END$&#10;&lt;/Text&gt;" description="Text react native" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="st" value="style={styles.$END$} " description="style react native" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
