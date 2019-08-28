@@ -47,4 +47,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="bf" value="$FUNC_NAME$ = ($PARAMS$) =&gt; {&#10;    $END$&#10;};" description="binding function" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNC_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
