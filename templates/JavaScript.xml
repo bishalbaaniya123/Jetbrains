@@ -54,4 +54,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="vi" value="&lt;View&gt;&#10;    $END$&#10;&lt;/View&gt;" description="View React native" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="flexx" value="display: &quot;flex&quot;,&#10;flex: 1,&#10;alignItems: &quot;center&quot;,&#10;justifyContent: &quot;center&quot;,&#10;$END$" description="flex style" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
