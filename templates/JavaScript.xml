@@ -70,4 +70,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="ctr" value="constructor(props) {&#10;    super(props);&#10;    this.state = {&#10;        $END$&#10;    }&#10;}" description="constructor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="prevse" value="this.setState(prevState =&gt; ({&#10;    ...prevState,&#10;    $END$&#10;}))" description="Prevstate setstate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
