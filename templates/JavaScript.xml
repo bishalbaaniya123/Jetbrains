@@ -75,7 +75,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="prevse" value="this.setState(prevState =&gt; ({&#10;    ...prevState,&#10;    $END$&#10;}))" description="Prevstate setstate" toReformat="false" toShortenFQNames="true">
+  <template name="prevse" value="this.setState(prevState =&gt; ({&#10;    ...prevState,&#10;    $END$&#10;}));" description="Prevstate setstate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="js" value="$KEY$: &quot;$VALUE$&quot;,$END$" description="json" toReformat="false" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
