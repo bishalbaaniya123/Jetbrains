@@ -1,5 +1,9 @@
 <templateSet group="JavaScript">
-  <template name="mapstate" value="const mapStateToProps = (state) =&gt; {&#10;    return {}&#10;};" description="prints map state to props" toReformat="false" toShortenFQNames="true" />
+  <template name="mapstate" value="const mapStateToProps = (state) =&gt; {&#10;    return {}&#10;};" description="prints map state to props" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
   <template name="conw" value="console.warn(&quot;$END$&quot;);" description="Console warn" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -83,6 +87,12 @@
   <template name="js" value="$KEY$: &quot;$VALUE$&quot;,$END$" description="json" toReformat="false" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="prevsearr" value="this.setState(prevState =&gt; ({&#10;    ...prevState,&#10;    $KEY$: [&#10;        ...prevState.$KEY$.slice(0, index),&#10;        {...prevState.$KEY$[index], active: true},&#10;        ...prevState.$KEY$.slice(index + 1)&#10;    ]&#10;}));$END$" description="Prev state setstate of an array" toReformat="false" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
