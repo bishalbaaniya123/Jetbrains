@@ -1,0 +1,8 @@
+<templateSet group="Android">
+  <template name="tst" value="Toast.makeText($CONTEXT$, &quot;$END$&quot;, Toast.LENGTH_LONG).show();" description="create a toast" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
