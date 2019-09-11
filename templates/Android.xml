@@ -5,4 +5,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="lgd" value="Log.d(&quot;$TAG$&quot;, &quot;$MESSAGE$&quot;);" description="log d" toReformat="false" toShortenFQNames="true">
+    <variable name="TAG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
