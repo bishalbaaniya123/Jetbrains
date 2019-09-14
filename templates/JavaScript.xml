@@ -97,4 +97,29 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="prak" value="{&#10;    status: $STATUS$,&#10;    data: {$DATA$},&#10;    message: &quot;$MESSAGE$&quot;&#10;}$END$" description="prak template" toReformat="false" toShortenFQNames="true">
+    <variable name="STATUS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="retres" value="return res.status($STATUS_CODE$)&#10;  .json({&#10;    status: $STATUS$,&#10;    data: {$DATA$},&#10;    message: '$MESSAGE$'&#10;  });$END$" description="Return res json without status code" toReformat="false" toShortenFQNames="true">
+    <variable name="STATUS_CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STATUS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="retressuccess" value="return res.json({&#10;  status: $STATUS$,&#10;  data: {$DATA$},&#10;  message: '$MESSAGE$'&#10;});$END$" description="with no status code" toReformat="false" toShortenFQNames="true">
+    <variable name="STATUS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
