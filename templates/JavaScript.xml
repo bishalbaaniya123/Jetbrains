@@ -119,4 +119,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="intser" value="if(err){&#10;  return internalServerError(res);&#10;}&#10;$END$" description="Internal Server Error" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
