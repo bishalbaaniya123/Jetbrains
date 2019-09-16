@@ -22,9 +22,11 @@
   <action id="EditorPasteFromX11" />
   <action id="EditorScrollLeft">
     <keyboard-shortcut first-keystroke="ctrl numpad4" />
+    <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
   <action id="EditorScrollRight">
     <keyboard-shortcut first-keystroke="ctrl numpad6" />
+    <keyboard-shortcut first-keystroke="shift ctrl context_menu" />
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl comma" />

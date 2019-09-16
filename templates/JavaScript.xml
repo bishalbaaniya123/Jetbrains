@@ -124,4 +124,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="consp" value="console.log(&quot;This is the $PARAMETER$&quot;, $PARAMETER$);$END$" description="console log with a parameter" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMETER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
