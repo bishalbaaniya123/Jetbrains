@@ -4,9 +4,14 @@
     <mouse-shortcut keystroke="control button3 doubleClick" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
+  <action id="CIDR.Lang.IntroduceConstant" />
   <action id="CIDR.Lang.IntroduceDefine" />
   <action id="CloseEditor">
     <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+    <mouse-shortcut keystroke="shift button2" />
   </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f9" />
@@ -39,6 +44,7 @@
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
   </action>
+  <action id="IntroduceConstant" />
   <action id="IntroduceField" />
   <action id="IntroduceProperty" />
   <action id="MoveTabRight">
