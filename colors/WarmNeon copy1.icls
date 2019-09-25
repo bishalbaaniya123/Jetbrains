@@ -1,15 +1,17 @@
 <scheme name="WarmNeon copy1" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2019-07-30T17:30:16</property>
+    <property name="created">2019-07-10T02:18:44</property>
     <property name="ide">WebStorm</property>
-    <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2019-09-16T21:54:12</property>
+    <property name="ideVersion">2019.1.3.0.0</property>
+    <property name="modified">2019-09-25T17:29:06</property>
     <property name="originalScheme">WarmNeon copy</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.2" />
+  <option name="LINE_SPACING" value="1.5" />
   <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Fira Code Light" />
+  <option name="EDITOR_FONT_NAME" value="Droid Sans Mono" />
+  <option name="CONSOLE_FONT_NAME" value="Monospaced" />
+  <option name="CONSOLE_LINE_SPACING" value="1.6" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="395439" />
     <option name="ANNOTATIONS_COLOR" value="8178af" />
@@ -340,12 +342,6 @@
         <option name="FOREGROUND" value="f971bb" />
       </value>
     </option>
-    <option name="DEFAULT_PARAMETER">
-      <value>
-        <option name="EFFECT_COLOR" value="867aff" />
-        <option name="EFFECT_TYPE" value="4" />
-      </value>
-    </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FONT_TYPE" value="1" />
@@ -621,7 +617,7 @@
     </option>
     <option name="JAVA_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="484b49" />
+        <option name="FOREGROUND" value="b44141" />
       </value>
     </option>
     <option name="JAVA_BRACES">
@@ -660,7 +656,7 @@
     </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="484b49" />
+        <option name="FOREGROUND" value="e54242" />
       </value>
     </option>
     <option name="JAVA_OPERATION_SIGN">
@@ -711,12 +707,7 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JS.GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="d41fff" />
-        <option name="FONT_TYPE" value="3" />
-      </value>
-    </option>
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="757373" />
@@ -730,8 +721,8 @@
     <option name="JS.PARAMETER">
       <value>
         <option name="FOREGROUND" value="cfdb96" />
-        <option name="EFFECT_COLOR" value="867aff" />
-        <option name="EFFECT_TYPE" value="4" />
+        <option name="EFFECT_COLOR" value="8080" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.PARENTHS">
@@ -870,11 +861,6 @@
       <value>
         <option name="FOREGROUND" value="eaed5b" />
         <option name="BACKGROUND" value="2a526e" />
-      </value>
-    </option>
-    <option name="PHP_VAR">
-      <value>
-        <option name="FOREGROUND" value="8d4300" />
       </value>
     </option>
     <option name="PROPERTIES.LINE_COMMENT">
@@ -1230,11 +1216,6 @@
         <option name="ERROR_STRIPE_COLOR" value="ff" />
       </value>
     </option>
-    <option name="TS.TYPE_GUARD">
-      <value>
-        <option name="FONT_TYPE" value="3" />
-      </value>
-    </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f8f870" />
@@ -1280,7 +1261,7 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="c73c00" />
+        <option name="FOREGROUND" value="ff0000" />
         <option name="BACKGROUND" value="402d39" />
       </value>
     </option>
