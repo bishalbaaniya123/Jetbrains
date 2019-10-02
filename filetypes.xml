@@ -1,8 +1,33 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="ProfileTabs" type="ECMAScript 6" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="GroupsTab" type="JavaScript" />
+      <mapping pattern="nayan" type="JavaScript" />
+      <mapping pattern="firstCapital.js" type="JavaScript" />
+      <mapping pattern="VerticalStepper.js" type="JavaScript" />
+      <mapping pattern="allSkills.js" type="JavaScript" />
+      <mapping pattern="checkLogin" type="JavaScript" />
+      <mapping pattern="GifMain.js" type="JavaScript" />
+      <mapping pattern="SelfReducers.js" type="JavaScript" />
+      <mapping pattern="allSkills" type="Native" />
+      <mapping pattern=".roadhogrc" type="PLAIN_TEXT" />
+      <mapping pattern="Procfile" type="PLAIN_TEXT" />
+      <mapping ext="otf" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="otf" approved="true" type="Font" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="php" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping ext="properties" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
