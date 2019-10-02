@@ -4,10 +4,14 @@
     <mouse-shortcut keystroke="control button3 doubleClick" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
-  <action id="CallHierarchy" />
-  <action id="ChangesView.ShelveSilently" />
+  <action id="CIDR.Lang.IntroduceDefine" />
   <action id="CloseEditor">
     <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="ctrl alt quote" />
+    <keyboard-shortcut first-keystroke="ctrl 4" />
   </action>
   <action id="EditorDecreaseFontSize">
     <mouse-shortcut keystroke="control button142" />
@@ -16,41 +20,58 @@
     <mouse-shortcut keystroke="control button143" />
   </action>
   <action id="EditorPasteFromX11" />
-  <action id="EditorSelectWord" />
+  <action id="EditorScrollLeft">
+    <keyboard-shortcut first-keystroke="ctrl numpad4" />
+    <keyboard-shortcut first-keystroke="shift ctrl comma" />
+  </action>
+  <action id="EditorScrollRight">
+    <keyboard-shortcut first-keystroke="ctrl numpad6" />
+    <keyboard-shortcut first-keystroke="shift ctrl context_menu" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
+  <action id="FileChooser.GotoModule" />
+  <action id="GotoBookmark3" />
+  <action id="GotoBookmark4" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
   </action>
-  <action id="IncrementWindowWidth" />
   <action id="IntroduceField" />
-  <action id="Javascript.Linters.EsLint.Fix">
-    <keyboard-shortcut first-keystroke="ctrl alt quote" />
+  <action id="IntroduceProperty" />
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift ctrl alt x" />
   </action>
-  <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
+  <action id="PublishGroup.UploadTo" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
-  <action id="ResizeToolWindowLeft" />
-  <action id="ResizeToolWindowRight" />
-  <action id="RunClass">
-    <keyboard-shortcut first-keystroke="shift ctrl f10" />
-    <mouse-shortcut keystroke="alt button3 doubleClick" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
-    <keyboard-shortcut first-keystroke="alt semicolon" />
-  </action>
-  <action id="ShowFilterPopup" />
-  <action id="SplitHorizontally">
-    <keyboard-shortcut first-keystroke="ctrl alt h" />
+    <keyboard-shortcut first-keystroke="ctrl 3" />
+    <mouse-shortcut keystroke="control button2 doubleClick" />
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift ctrl x" />
   </action>
-  <action id="ToggleBookmark" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
   <action id="ToggleFullScreen">
-    <keyboard-shortcut first-keystroke="f11" />
     <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
+  <action id="UnsplitAll">
+    <keyboard-shortcut first-keystroke="shift ctrl alt z" />
+  </action>
+  <action id="UpdateRunningApplication" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
 </keymap>
