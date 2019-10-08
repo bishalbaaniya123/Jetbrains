@@ -140,4 +140,15 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="valid" value="if (req.validationErrors()) {&#10;  return validationError(req.validationErrors(), res);&#10;}&#10;$END$" description="Validation error check" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="check" value="req.checkBody('$VALUE$')&#10;  .notEmpty();&#10;$END$" description="Check body" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
