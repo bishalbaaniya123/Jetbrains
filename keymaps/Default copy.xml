@@ -5,6 +5,9 @@
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
   <action id="CIDR.Lang.IntroduceDefine" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+  </action>
   <action id="CloseEditor">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -39,6 +42,7 @@
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
   </action>
+  <action id="IntroduceConstant" />
   <action id="IntroduceField" />
   <action id="IntroduceProperty" />
   <action id="MoveTabRight">
@@ -58,6 +62,7 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift ctrl x" />
   </action>
+  <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
