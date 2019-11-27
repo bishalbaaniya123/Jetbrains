@@ -2,11 +2,9 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="ProfileTabs" type="ECMAScript 6" />
-      <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="firstCapital.js" type="JavaScript" />
       <mapping pattern="GroupsTab" type="JavaScript" />
       <mapping pattern="nayan" type="JavaScript" />
-      <mapping pattern="firstCapital.js" type="JavaScript" />
       <mapping pattern="VerticalStepper.js" type="JavaScript" />
       <mapping pattern="allSkills.js" type="JavaScript" />
       <mapping pattern="checkLogin" type="JavaScript" />
