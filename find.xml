@@ -15,5 +15,6 @@
     <mask>*.ts</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
+    <mask>*.php</mask>
   </component>
 </application>
