@@ -31,6 +31,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
   </action>
   <action id="ShowFilterPopup" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
