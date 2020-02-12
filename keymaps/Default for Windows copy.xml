@@ -1,0 +1,15 @@
+<keymap version="1" name="Default for Windows copy" parent="$default">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+    <mouse-shortcut keystroke="control button3 doubleClick" />
+  </action>
+  <action id="IntroduceField" />
+  <action id="ShowFilterPopup" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+  </action>
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
+</keymap>
