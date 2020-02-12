@@ -4,8 +4,29 @@
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
     <mouse-shortcut keystroke="control button3 doubleClick" />
   </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
+  <action id="EslintImportCodeStyle">
+    <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
+  </action>
+  <action id="IntroduceConstant" />
   <action id="IntroduceField" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="ctrl alt quote" />
+  </action>
   <action id="ShowFilterPopup" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
+  <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
