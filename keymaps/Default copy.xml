@@ -22,6 +22,9 @@
   </action>
   <action id="EditorPasteFromX11" />
   <action id="EditorSelectWord" />
+  <action id="EslintImportCodeStyle">
+    <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
@@ -29,13 +32,19 @@
   </action>
   <action id="IntroduceConstant" />
   <action id="IntroduceField" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="ctrl alt quote" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl alt 2" />
   </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
     <mouse-shortcut keystroke="alt button3 doubleClick" />
-    <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
+  </action>
+  <action id="RunDashboard.Run">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <mouse-shortcut keystroke="alt button3 doubleClick" />
   </action>
   <action id="ShowFilterPopup" />
   <action id="SplitVertically">
