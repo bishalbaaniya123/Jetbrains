@@ -21,7 +21,9 @@
     <mouse-shortcut keystroke="control button143" />
   </action>
   <action id="EditorPasteFromX11" />
-  <action id="EditorSelectWord" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
   <action id="EslintImportCodeStyle">
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
   </action>
