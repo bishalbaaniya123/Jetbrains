@@ -22,6 +22,13 @@
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="ctrl alt quote" />
   </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="ctrl alt 2" />
+  </action>
   <action id="ShowFilterPopup" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift ctrl x" />
