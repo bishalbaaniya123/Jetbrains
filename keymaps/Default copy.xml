@@ -14,7 +14,9 @@
     <mouse-shortcut keystroke="control button143" />
   </action>
   <action id="EditorPasteFromX11" />
-  <action id="EditorSelectWord" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
