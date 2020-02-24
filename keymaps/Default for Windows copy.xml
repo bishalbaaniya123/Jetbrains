@@ -4,7 +4,7 @@
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
     <mouse-shortcut keystroke="control button3 doubleClick" />
   </action>
-  <action id="CloseAllEditors">
+  <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
   <action id="CloseContent">
