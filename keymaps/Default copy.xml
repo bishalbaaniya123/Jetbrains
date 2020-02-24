@@ -4,15 +4,8 @@
     <mouse-shortcut keystroke="control button3 doubleClick" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
-  <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="ctrl alt c" />
-  </action>
   <action id="CloseEditor">
     <keyboard-shortcut first-keystroke="ctrl w" />
-  </action>
-  <action id="Console.TableResult.SetDefault" />
-  <action id="EditorCreateRectangularSelectionOnMouseDrag">
-    <mouse-shortcut keystroke="shift alt button1" />
   </action>
   <action id="EditorDecreaseFontSize">
     <mouse-shortcut keystroke="control button142" />
@@ -21,45 +14,10 @@
     <mouse-shortcut keystroke="control button143" />
   </action>
   <action id="EditorPasteFromX11" />
-  <action id="EditorSelectWord">
-    <keyboard-shortcut first-keystroke="ctrl comma" />
-  </action>
-  <action id="EslintImportCodeStyle">
-    <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
-  </action>
-  <action id="ExportSettings">
-    <keyboard-shortcut first-keystroke="ctrl alt 0" />
-  </action>
+  <action id="EditorSelectWord" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
-  </action>
-  <action id="IntroduceConstant" />
-  <action id="IntroduceField" />
-  <action id="Javascript.Linters.EsLint.Fix">
-    <keyboard-shortcut first-keystroke="ctrl alt quote" />
-  </action>
-  <action id="RevealIn">
-    <keyboard-shortcut first-keystroke="ctrl alt 2" />
-  </action>
-  <action id="RunClass">
-    <keyboard-shortcut first-keystroke="shift ctrl f10" />
-    <mouse-shortcut keystroke="alt button3 doubleClick" />
-  </action>
-  <action id="RunDashboard.Run">
-    <keyboard-shortcut first-keystroke="shift ctrl f10" />
-    <mouse-shortcut keystroke="alt button3 doubleClick" />
-  </action>
-  <action id="ShowFilterPopup" />
-  <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="shift ctrl x" />
-  </action>
-  <action id="TodoViewGroupByFlattenPackage" />
-  <action id="ToggleDistractionFreeMode">
-    <keyboard-shortcut first-keystroke="ctrl alt d" />
-  </action>
-  <action id="ToggleFullScreen">
-    <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
 </keymap>
