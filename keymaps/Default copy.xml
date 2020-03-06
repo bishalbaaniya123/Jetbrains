@@ -14,10 +14,20 @@
     <mouse-shortcut keystroke="control button143" />
   </action>
   <action id="EditorPasteFromX11" />
-  <action id="EditorSelectWord" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
+  </action>
+  <action id="IntroduceField" />
+  <action id="ShowFilterPopup" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
 </keymap>
