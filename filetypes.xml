@@ -10,6 +10,7 @@
       <mapping pattern="allSkills.js" type="JavaScript" />
       <mapping pattern="VerticalStepper.js" type="JavaScript" />
       <mapping pattern="GifMain.js" type="JavaScript" />
+      <mapping ext="jinja" type="Jinja2" />
       <mapping pattern="allSkills" type="Native" />
       <mapping pattern="user" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
@@ -19,17 +20,19 @@
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <mapping pattern=".jinja" type="YAML_EX" />
-      <mapping pattern=".j2" type="YAML_EX" />
+      <mapping ext="j2" type="YAML_EX" />
       <removed_mapping ext="otf" approved="true" type="Font" />
+      <removed_mapping ext="jinja" approved="true" type="YAML_EX" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".j2" approved="true" type="YAML_EX" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="php" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <removed_mapping ext="properties" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".jinja" approved="true" type="YAML_EX" />
     </extensionMap>
   </component>
 </application>
