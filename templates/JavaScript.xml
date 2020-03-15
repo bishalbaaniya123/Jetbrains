@@ -46,7 +46,8 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cost" value="const {$END$} = this.state;" description="constant state" toReformat="false" toShortenFQNames="true">
+  <template name="cost" value="const {$PARAM$} = this.state;$END$" description="constant state" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -159,6 +160,12 @@
   </template>
   <template name="trr" value="try {&#10;    /**&#10;     * expected req.body&#10;     * {&#10;            &quot;businessType&quot;: {&#10;                &quot;name&quot;: &quot;Name of the business type&quot;&#10;            },&#10;            &quot;type&quot;: &quot;BUSINESS&quot;&#10;        }&#10;     */&#10;    &#10;    req.checkBody('businessType')&#10;        .notEmpty();&#10;    &#10;    req.checkBody('type')&#10;        .notEmpty();&#10;    &#10;    if (req.validationErrors()) {&#10;        return validationError(req.validationErrors(), res);&#10;    }&#10;    &#10;    $END$&#10;    return res.json({&#10;        status: 1,&#10;        data: {},&#10;        message: '$MESSAGE$'&#10;    });&#10;&#10;} catch (e) {&#10;    return internalServerErrorWithMessage(res, e);&#10;}" description="try catch with all validation" toReformat="false" toShortenFQNames="true">
     <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="hp" value="this.props.history.push({&#10;    pathname: '$PARAM$'&#10;})$END$" description="this.props.history.push" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

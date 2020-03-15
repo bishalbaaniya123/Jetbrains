@@ -1,33 +1,34 @@
-<keymap version="1" name="Default copy" parent="Default for XWin">
+<keymap version="1" name="Default for Windows copy" parent="$default">
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
-    <mouse-shortcut keystroke="control button3 doubleClick" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
+    <mouse-shortcut keystroke="control button3 doubleClick" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
-  <action id="CloseEditor">
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
-  <action id="Console.TableResult.SetDefault" />
-  <action id="EditorDecreaseFontSize">
-    <mouse-shortcut keystroke="control button142" />
-  </action>
-  <action id="EditorIncreaseFontSize">
-    <mouse-shortcut keystroke="control button143" />
-  </action>
-  <action id="EditorPasteFromX11" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
-  <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="ctrl b" />
-    <mouse-shortcut keystroke="control button1" />
-    <mouse-shortcut keystroke="button2" />
+  <action id="EslintImportCodeStyle">
+    <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
   </action>
   <action id="IntroduceConstant" />
   <action id="IntroduceField" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="ctrl alt quote" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="ctrl alt 2" />
+  </action>
   <action id="ShowFilterPopup" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift ctrl x" />
