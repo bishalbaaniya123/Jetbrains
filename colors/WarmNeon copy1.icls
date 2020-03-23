@@ -4,12 +4,12 @@
     <property name="created">2019-07-10T02:18:44</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.1.3.0.0</property>
-    <property name="modified">2020-03-08T10:50:18</property>
+    <property name="modified">2020-03-15T20:47:32</property>
     <property name="originalScheme">WarmNeon copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
   <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+  <option name="EDITOR_FONT_NAME" value="Noto Mono" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
   <option name="CONSOLE_LINE_SPACING" value="1.6" />
   <colors>
@@ -276,6 +276,16 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_BRACES">
+      <value>
+        <option name="FOREGROUND" value="4eee23" />
+      </value>
+    </option>
+    <option name="DEFAULT_BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="4eee23" />
+      </value>
+    </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="f2f0b5" />
@@ -340,6 +350,11 @@
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="f971bb" />
+      </value>
+    </option>
+    <option name="DEFAULT_PARENTHS">
+      <value>
+        <option name="FOREGROUND" value="4eee23" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
@@ -921,7 +936,7 @@
     </option>
     <option name="PY.CLASS_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="36ff00" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -957,7 +972,8 @@
     <option name="PY.KEYWORD">
       <value>
         <option name="FOREGROUND" value="cc9900" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
@@ -967,7 +983,10 @@
     </option>
     <option name="PY.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="547591" />
+        <option name="FOREGROUND" value="3d576b" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="523c00" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="PY.METHOD_CALL">
