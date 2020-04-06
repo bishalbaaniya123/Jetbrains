@@ -17,4 +17,11 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="bff" value="$FUNCTION_NAME$($PARAM$) {&#10;    $END$&#10;}" description="new function" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNCTION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
