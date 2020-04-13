@@ -4,6 +4,7 @@
     <mouse-shortcut keystroke="control button3 doubleClick" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
+  <action id="ChangesView.ShelveSilently" />
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
@@ -27,7 +28,11 @@
   </action>
   <action id="IntroduceConstant" />
   <action id="IntroduceField" />
+  <action id="MethodHierarchy" />
   <action id="ShowFilterPopup" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift ctrl x" />
   </action>
