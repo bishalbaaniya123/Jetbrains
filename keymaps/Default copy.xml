@@ -21,6 +21,9 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
+  <action id="ExportSettings">
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
@@ -39,5 +42,8 @@
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
+  <action id="WelcomeScreen.Configure.Export">
+    <keyboard-shortcut first-keystroke="shift ctrl alt a" />
   </action>
 </keymap>
