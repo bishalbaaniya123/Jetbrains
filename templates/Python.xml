@@ -1,5 +1,5 @@
 <templateSet group="Python">
-  <template name="pp" value="print(&quot;this is the $PARAM$&quot;, $PARAM$)$END$" description="print with parameters" toReformat="false" toShortenFQNames="true">
+  <template name="pp" value="print('this is the $PARAM$', $PARAM$)$END$" description="print with params" toReformat="false" toShortenFQNames="true">
     <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
