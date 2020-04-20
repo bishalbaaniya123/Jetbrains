@@ -4,12 +4,12 @@
     <mouse-shortcut keystroke="meta button3 doubleClick" />
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
-  <action id="CloseActiveTab">
-    <keyboard-shortcut first-keystroke="shift meta f4" />
-    <keyboard-shortcut first-keystroke="meta w" />
-  </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta alt c" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="meta f4" />
+    <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
     <mouse-shortcut keystroke="shift alt button1" />
