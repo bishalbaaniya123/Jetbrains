@@ -3,6 +3,7 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <mouse-shortcut keystroke="meta button3 doubleClick" />
     <keyboard-shortcut first-keystroke="meta semicolon" />
+    <mouse-shortcut keystroke="control button3 doubleClick" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta alt c" />
