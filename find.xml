@@ -9,5 +9,6 @@
     <mask>*.pyw</mask>
     <mask>*.vue</mask>
     <mask>*.py</mask>
+    <mask>*.yaml</mask>
   </component>
 </application>
