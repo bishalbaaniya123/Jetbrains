@@ -3,7 +3,7 @@
   <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoredPackages">
       <value>
-        <list size="112">
+        <list size="128">
           <item index="0" class="java.lang.String" itemvalue="ndg-httpsclient" />
           <item index="1" class="java.lang.String" itemvalue="pycparser" />
           <item index="2" class="java.lang.String" itemvalue="redis" />
@@ -116,6 +116,22 @@
           <item index="109" class="java.lang.String" itemvalue="django-timezone-field" />
           <item index="110" class="java.lang.String" itemvalue="pillow" />
           <item index="111" class="java.lang.String" itemvalue="google-auth" />
+          <item index="112" class="java.lang.String" itemvalue="django-celery-results" />
+          <item index="113" class="java.lang.String" itemvalue="django-jinja" />
+          <item index="114" class="java.lang.String" itemvalue="wrapt" />
+          <item index="115" class="java.lang.String" itemvalue="asgiref" />
+          <item index="116" class="java.lang.String" itemvalue="typing-extensions" />
+          <item index="117" class="java.lang.String" itemvalue="awscli" />
+          <item index="118" class="java.lang.String" itemvalue="cloudinary" />
+          <item index="119" class="java.lang.String" itemvalue="jinja2" />
+          <item index="120" class="java.lang.String" itemvalue="virtualenv-clone" />
+          <item index="121" class="java.lang.String" itemvalue="faker" />
+          <item index="122" class="java.lang.String" itemvalue="freezegun" />
+          <item index="123" class="java.lang.String" itemvalue="bleach" />
+          <item index="124" class="java.lang.String" itemvalue="virtualenv" />
+          <item index="125" class="java.lang.String" itemvalue="collectfast" />
+          <item index="126" class="java.lang.String" itemvalue="multidict" />
+          <item index="127" class="java.lang.String" itemvalue="django-webpack-loader" />
         </list>
       </value>
     </option>
