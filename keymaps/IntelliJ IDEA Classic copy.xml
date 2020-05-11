@@ -19,6 +19,9 @@
   <action id="EditorPasteFromX11" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="alt period" />
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
   <action id="FindInPath">
