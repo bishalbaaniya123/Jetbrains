@@ -13,12 +13,19 @@
     <keyboard-shortcut first-keystroke="meta w" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="ConfigureSoftWraps">
+    <keyboard-shortcut first-keystroke="shift meta back_slash" />
+  </action>
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
     <mouse-shortcut keystroke="shift alt button1" />
   </action>
   <action id="EditorPasteFromX11" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="alt period" />
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
@@ -39,6 +46,7 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
     <keyboard-shortcut first-keystroke="shift ctrl alt left" />
   </action>
+  <action id="RecentFiles" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f9" />
     <keyboard-shortcut first-keystroke="shift meta r" />
@@ -54,6 +62,8 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift meta x" />
   </action>
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Terminal.MoveToolWindowTabLeft">
     <keyboard-shortcut first-keystroke="shift meta alt left" />
     <keyboard-shortcut first-keystroke="ctrl meta left" />
@@ -61,5 +71,8 @@
   <action id="Terminal.MoveToolWindowTabRight">
     <keyboard-shortcut first-keystroke="shift meta alt right" />
     <keyboard-shortcut first-keystroke="ctrl meta right" />
+  </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
 </keymap>
