@@ -27,6 +27,11 @@
     <keyboard-shortcut first-keystroke="meta w" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta slash" />
+    <keyboard-shortcut first-keystroke="meta divide" />
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
   <action id="ConfigureSoftWraps">
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
   </action>
