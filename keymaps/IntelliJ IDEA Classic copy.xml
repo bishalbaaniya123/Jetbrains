@@ -18,6 +18,7 @@
     <mouse-shortcut keystroke="meta button3 doubleClick" />
     <keyboard-shortcut first-keystroke="meta semicolon" />
     <mouse-shortcut keystroke="control button3 doubleClick" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta alt c" />
@@ -123,11 +124,13 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="shift ctrl alt right" />
+    <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
   <action id="PreviousEditorTab" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl left" />
     <keyboard-shortcut first-keystroke="shift ctrl alt left" />
+    <keyboard-shortcut first-keystroke="ctrl meta left" />
   </action>
   <action id="RecentFiles" />
   <action id="ResizeToolWindowLeft" />
@@ -149,14 +152,6 @@
   </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
-  <action id="Terminal.MoveToolWindowTabLeft">
-    <keyboard-shortcut first-keystroke="shift meta alt left" />
-    <keyboard-shortcut first-keystroke="ctrl meta left" />
-  </action>
-  <action id="Terminal.MoveToolWindowTabRight">
-    <keyboard-shortcut first-keystroke="shift meta alt right" />
-    <keyboard-shortcut first-keystroke="ctrl meta right" />
-  </action>
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
