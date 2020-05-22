@@ -111,6 +111,9 @@
   <action id="Github.PullRequest.Branch.Create">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta b" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="meta b" />
     <mouse-shortcut keystroke="meta button1" />
