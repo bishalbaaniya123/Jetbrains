@@ -3,7 +3,7 @@
   <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoredPackages">
       <value>
-        <list size="130">
+        <list size="143">
           <item index="0" class="java.lang.String" itemvalue="ndg-httpsclient" />
           <item index="1" class="java.lang.String" itemvalue="pycparser" />
           <item index="2" class="java.lang.String" itemvalue="redis" />
@@ -134,6 +134,19 @@
           <item index="127" class="java.lang.String" itemvalue="django-webpack-loader" />
           <item index="128" class="java.lang.String" itemvalue="tornado" />
           <item index="129" class="java.lang.String" itemvalue="urllib3" />
+          <item index="130" class="java.lang.String" itemvalue="django-jinja-bootstrap-form" />
+          <item index="131" class="java.lang.String" itemvalue="django-sslserver" />
+          <item index="132" class="java.lang.String" itemvalue="vcrpy" />
+          <item index="133" class="java.lang.String" itemvalue="text-unidecode" />
+          <item index="134" class="java.lang.String" itemvalue="vobject" />
+          <item index="135" class="java.lang.String" itemvalue="django-taggit-serializer" />
+          <item index="136" class="java.lang.String" itemvalue="pipenv" />
+          <item index="137" class="java.lang.String" itemvalue="django-phone-field" />
+          <item index="138" class="java.lang.String" itemvalue="markupsafe" />
+          <item index="139" class="java.lang.String" itemvalue="url-normalize" />
+          <item index="140" class="java.lang.String" itemvalue="filelock" />
+          <item index="141" class="java.lang.String" itemvalue="distlib" />
+          <item index="142" class="java.lang.String" itemvalue="django-taggit" />
         </list>
       </value>
     </option>
