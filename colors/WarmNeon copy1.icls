@@ -4,7 +4,7 @@
     <property name="created">2020-04-19T01:24:17</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2020-05-30T13:36:00</property>
+    <property name="modified">2020-06-05T00:22:55</property>
     <property name="originalScheme">WarmNeon copy1</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -1003,6 +1003,7 @@
     </option>
     <option name="PY.PARAMETER">
       <value>
+        <option name="FOREGROUND" value="bdf7ff" />
         <option name="EFFECT_COLOR" value="b2b5b7" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
