@@ -9,5 +9,6 @@
     <mask>*.pyw</mask>
     <mask>*.py</mask>
     <mask>*.scss</mask>
+    <mask>*.jinja</mask>
   </component>
 </application>
