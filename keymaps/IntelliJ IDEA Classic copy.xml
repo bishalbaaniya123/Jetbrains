@@ -175,6 +175,9 @@
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="TodoViewGroupByFlattenPackage" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
