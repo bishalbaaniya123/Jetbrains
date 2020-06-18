@@ -169,6 +169,9 @@
     <keyboard-shortcut first-keystroke="meta comma" />
     <keyboard-shortcut first-keystroke="ctrl meta s" />
   </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift alt x" />
+  </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift meta x" />
   </action>
@@ -181,5 +184,6 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
+  <action id="context.clear" />
   <action id="tasks.goto" />
 </keymap>
