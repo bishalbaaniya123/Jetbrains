@@ -4,7 +4,7 @@
     <property name="created">2020-04-19T01:24:17</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2020-06-05T00:22:55</property>
+    <property name="modified">2020-07-06T19:05:17</property>
     <property name="originalScheme">WarmNeon copy1</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -718,11 +718,19 @@
     </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
+        <option name="FOREGROUND" value="13bfc7" />
+        <option name="BACKGROUND" value="2a2a2a" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="18c21f" />
+        <option name="BACKGROUND" value="1e1e1e" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="JS.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="757373" />
@@ -735,7 +743,7 @@
     </option>
     <option name="JS.PARAMETER">
       <value>
-        <option name="FOREGROUND" value="cfdb96" />
+        <option name="FOREGROUND" value="f2ffb1" />
         <option name="EFFECT_COLOR" value="488000" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
