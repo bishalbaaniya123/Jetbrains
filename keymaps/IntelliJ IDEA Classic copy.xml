@@ -127,6 +127,9 @@
   <action id="IncreaseColumnWidth" />
   <action id="IncrementWindowWidth" />
   <action id="IntroduceConstant" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="meta alt semicolon" />
+  </action>
   <action id="NavBar-selectEnd">
     <keyboard-shortcut first-keystroke="end" />
   </action>
