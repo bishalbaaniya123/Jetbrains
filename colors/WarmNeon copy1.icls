@@ -4,7 +4,7 @@
     <property name="created">2020-04-19T01:24:17</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2020-07-06T19:05:17</property>
+    <property name="modified">2020-07-07T23:35:11</property>
     <property name="originalScheme">WarmNeon copy1</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -714,6 +714,13 @@
     <option name="JS.DOC_MARKUP">
       <value>
         <option name="FOREGROUND" value="a63434" />
+      </value>
+    </option>
+    <option name="JS.EXPORTED.VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="e9e1eb" />
+        <option name="BACKGROUND" value="1e1e1e" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION">
