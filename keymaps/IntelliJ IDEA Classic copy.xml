@@ -43,6 +43,10 @@
   <action id="DecreaseColumnWidth" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="shift meta g" />
+  </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
@@ -118,9 +122,7 @@
   <action id="Github.PullRequest.Branch.Create">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
-  <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="shift meta b" />
-  </action>
+  <action id="GotoAction" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="meta b" />
     <mouse-shortcut keystroke="meta button1" />
@@ -170,6 +172,7 @@
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="shift f11" />
     <keyboard-shortcut first-keystroke="ctrl meta b" />
+    <keyboard-shortcut first-keystroke="shift meta b" />
   </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="meta comma" />
