@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.jinja" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -11,7 +12,7 @@
     <mask>*.vue</mask>
     <mask>*.scss</mask>
     <mask>*.js</mask>
-    <mask>*.jinja</mask>
     <mask>*.py</mask>
+    <mask>*.jinja</mask>
   </component>
 </application>
