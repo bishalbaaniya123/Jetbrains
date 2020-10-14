@@ -10,8 +10,8 @@
     <mask>*.vue</mask>
     <mask>*.html</mask>
     <mask>*.js</mask>
-    <mask>*.jinja</mask>
     <mask>*.scss</mask>
     <mask>*.py</mask>
+    <mask>*.jinja</mask>
   </component>
 </application>
