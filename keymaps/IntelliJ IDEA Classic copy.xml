@@ -24,6 +24,9 @@
     <mouse-shortcut keystroke="control button3 doubleClick" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
   <action id="ChangesView.ShelveSilently">
     <keyboard-shortcut first-keystroke="shift meta h" />
     <keyboard-shortcut first-keystroke="shift meta 9" />
@@ -138,6 +141,7 @@
     <mouse-shortcut keystroke="Force touch" />
     <mouse-shortcut keystroke="button2" />
   </action>
+  <action id="GotoTest" />
   <action id="IncreaseColumnWidth" />
   <action id="IncrementWindowWidth" />
   <action id="IntroduceConstant" />
@@ -174,6 +178,7 @@
     <keyboard-shortcut first-keystroke="f9" />
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
+  <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog">
     <keyboard-shortcut first-keystroke="shift meta u" />
     <keyboard-shortcut first-keystroke="shift meta 0" />
