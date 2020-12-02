@@ -13,12 +13,19 @@
     <keyboard-shortcut first-keystroke="meta z" />
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+  <action id="ActivateFindToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <mouse-shortcut keystroke="meta button3 doubleClick" />
     <keyboard-shortcut first-keystroke="meta semicolon" />
     <mouse-shortcut keystroke="control button3 doubleClick" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="ChangesView.ShelveSilently">
     <keyboard-shortcut first-keystroke="shift meta h" />
@@ -40,9 +47,17 @@
   <action id="ConfigureSoftWraps">
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
   </action>
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f9" />
+    <keyboard-shortcut first-keystroke="shift meta space" />
+  </action>
   <action id="DecreaseColumnWidth" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="shift meta g" />
+  </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
@@ -103,6 +118,7 @@
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
+  <action id="FileChooser.GotoModule" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
     <keyboard-shortcut first-keystroke="alt f3" />
@@ -118,15 +134,14 @@
   <action id="Github.PullRequest.Branch.Create">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
-  <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="shift meta b" />
-  </action>
+  <action id="GotoAction" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="meta b" />
     <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="Force touch" />
     <mouse-shortcut keystroke="button2" />
   </action>
+  <action id="GotoTest" />
   <action id="IncreaseColumnWidth" />
   <action id="IncrementWindowWidth" />
   <action id="IntroduceConstant" />
@@ -163,6 +178,7 @@
     <keyboard-shortcut first-keystroke="f9" />
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
+  <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog">
     <keyboard-shortcut first-keystroke="shift meta u" />
     <keyboard-shortcut first-keystroke="shift meta 0" />
@@ -170,6 +186,7 @@
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="shift f11" />
     <keyboard-shortcut first-keystroke="ctrl meta b" />
+    <keyboard-shortcut first-keystroke="shift meta b" />
   </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="meta comma" />
