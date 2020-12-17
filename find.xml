@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="test*.py" />
     <mask>*.css</mask>
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
@@ -13,7 +14,7 @@
     <mask>pratt*.scss</mask>
     <mask>*.scss</mask>
     <mask>*.vue</mask>
-    <mask>test*.py</mask>
     <mask>*.py</mask>
+    <mask>test*.py</mask>
   </component>
 </application>
