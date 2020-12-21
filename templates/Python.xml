@@ -45,4 +45,10 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="scode" value="self.assertEqual(response.status_code, $PARAM$)$END$" description="Status code assertion code" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
