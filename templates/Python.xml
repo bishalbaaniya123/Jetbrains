@@ -5,4 +5,44 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="200" value="status.HTTP_200_OK" description="Status 200" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="201" value="status.HTTP_201_CREATED" description="Status 201" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="204" value="status.HTTP_204_NO_CONTENT" description="Status 204" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="400" value="status.HTTP_400_BAD_REQUEST" description="Status 400" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="401" value="status.HTTP_401_UNAUTHORIZED" description="Status 401" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="403" value="status.HTTP_403_FORBIDDEN" description="Status 403" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="404" value="status.HTTP_404_NOT_FOUND" description="Status 404" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="405" value="status.HTTP_405_METHOD_NOT_ALLOWED" description="Status 405" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
