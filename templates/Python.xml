@@ -51,4 +51,23 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="sea" value="self.assertEqual($PARAM1$, $PARAM2$)$END$" description="self assert equal" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAM1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="sear" value="self.assertEqual(response.status_code, $PARAM$)$END$" description="self assertEqual response" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="rdg" value="response.data.get('$PARAM$')$END$" description="response data get" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
