@@ -47,9 +47,13 @@
   <action id="ConfigureSoftWraps">
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
   </action>
+  <action id="Console.TableResult.CloneRow">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="shift ctrl f9" />
     <keyboard-shortcut first-keystroke="shift meta space" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="DecreaseColumnWidth" />
   <action id="Diff.ApplyLeftSide" />
@@ -73,10 +77,6 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="ctrl e" />
-  </action>
-  <action id="EditorDuplicate">
-    <keyboard-shortcut first-keystroke="meta d" />
-    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
@@ -178,6 +178,13 @@
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f9" />
     <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="RunDashboard.CopyConfiguration">
+    <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog">
