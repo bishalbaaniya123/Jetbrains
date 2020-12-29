@@ -52,6 +52,7 @@
   <action id="Console.TableResult.CloneRow">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
+  <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.DeleteRows">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
@@ -59,10 +60,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl f9" />
     <keyboard-shortcut first-keystroke="shift meta space" />
     <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="DecreaseColumnWidth" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
     <keyboard-shortcut first-keystroke="shift meta g" />
@@ -218,6 +221,7 @@
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="Uml.ShowDiff" />
   <action id="Vcs.ShowMessageHistory" />
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl m" />
