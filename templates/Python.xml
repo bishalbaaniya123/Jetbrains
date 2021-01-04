@@ -86,13 +86,13 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="astr" value="self.assertIsTrue($PARAM$)$END$" description="Assert True" toReformat="false" toShortenFQNames="true">
+  <template name="astr" value="self.assertTrue($PARAM$)$END$" description="Assert True" toReformat="false" toShortenFQNames="true">
     <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="asfa" value="self.assertIsFalse($PARAM$)$END$" description="Assert False" toReformat="false" toShortenFQNames="true">
+  <template name="asfa" value="self.assertFalse($PARAM$)$END$" description="Assert False" toReformat="false" toShortenFQNames="true">
     <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
