@@ -80,4 +80,22 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="ann" value="self.assertIsNotNone($PARAM$)$END$" description="assert not none" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="astr" value="self.assertIsTrue($PARAM$)$END$" description="Assert True" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="asfa" value="self.assertIsFalse($PARAM$)$END$" description="Assert False" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
