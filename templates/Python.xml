@@ -123,4 +123,14 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="getcr" value="$VAR_NAME$ = self.$PAGE_OR_WEBSITE$.get_or_create_content('$KEY_NAME$', '$VALUE_TYPE$', options={'default': '$DEFAULT_VALUE$'})" description="get or create content" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PAGE_OR_WEBSITE" expression="String" defaultValue="&quot;homepage&quot;" alwaysStopAt="true" />
+    <variable name="KEY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE_TYPE" expression="String" defaultValue="&quot;text_area_br&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
