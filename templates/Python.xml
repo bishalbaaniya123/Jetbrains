@@ -103,9 +103,14 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="seal" value="self.assertEqual(len($PARAM$), $LENGTH$)$END$" description="self assert equal length" toReformat="false" toShortenFQNames="true">
+  <template name="seal" value="self.assertEqual(len($PARAM$), $LENGTH_VALUE$)$END$" description="self assert equal length" toReformat="false" toShortenFQNames="true">
     <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="LENGTH" expression="string" defaultValue="1" alwaysStopAt="true" />
+    <variable name="LENGTH_VALUE" expression="String" defaultValue="&quot;1&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="soupp" value="soup = self.get_soup(self.block)&#10;print(soup.prettify())$END$" description="soup" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
