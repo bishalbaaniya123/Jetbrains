@@ -115,4 +115,12 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="sele" value="$VAR_NAME$ = $SOUP_NAME$.select('$ELEMENT$')[0]$END$" description="Select from soup" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SOUP_NAME" expression="String" defaultValue="&quot;soup&quot;" alwaysStopAt="true" />
+    <variable name="ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
