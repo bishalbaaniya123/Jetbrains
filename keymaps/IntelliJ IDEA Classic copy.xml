@@ -13,6 +13,10 @@
     <keyboard-shortcut first-keystroke="meta z" />
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+  <action id="ActivateFindToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <mouse-shortcut keystroke="meta button3 doubleClick" />
@@ -20,6 +24,11 @@
     <mouse-shortcut keystroke="control button3 doubleClick" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="ChangesView.GroupBy.Directory" />
+  <action id="ChangesView.GroupBy.Module" />
   <action id="ChangesView.ShelveSilently">
     <keyboard-shortcut first-keystroke="shift meta h" />
     <keyboard-shortcut first-keystroke="shift meta 9" />
@@ -40,9 +49,27 @@
   <action id="ConfigureSoftWraps">
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
   </action>
+  <action id="Console.TableResult.CloneRow">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="Console.TableResult.CompareCells" />
+  <action id="Console.TableResult.DeleteRows">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f9" />
+    <keyboard-shortcut first-keystroke="shift meta space" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
   <action id="DecreaseColumnWidth" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="shift meta g" />
+  </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
@@ -54,14 +81,6 @@
   </action>
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
     <mouse-shortcut keystroke="shift alt button1" />
-  </action>
-  <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="meta y" />
-    <keyboard-shortcut first-keystroke="ctrl e" />
-  </action>
-  <action id="EditorDuplicate">
-    <keyboard-shortcut first-keystroke="meta d" />
-    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
@@ -103,6 +122,7 @@
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
+  <action id="FileChooser.GotoModule" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
     <keyboard-shortcut first-keystroke="alt f3" />
@@ -118,15 +138,14 @@
   <action id="Github.PullRequest.Branch.Create">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
-  <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="shift meta b" />
-  </action>
+  <action id="GotoAction" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="meta b" />
     <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="Force touch" />
     <mouse-shortcut keystroke="button2" />
   </action>
+  <action id="GotoTest" />
   <action id="IncreaseColumnWidth" />
   <action id="IncrementWindowWidth" />
   <action id="IntroduceConstant" />
@@ -153,7 +172,9 @@
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="shift alt r" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="ReplaceInPath" />
   <action id="RerunTests">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
@@ -162,7 +183,20 @@
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f9" />
     <keyboard-shortcut first-keystroke="shift meta r" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="RunDashboard.CopyConfiguration">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="ServiceView.GroupByServiceGroups" />
+  <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog">
     <keyboard-shortcut first-keystroke="shift meta u" />
     <keyboard-shortcut first-keystroke="shift meta 0" />
@@ -170,6 +204,7 @@
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="shift f11" />
     <keyboard-shortcut first-keystroke="ctrl meta b" />
+    <keyboard-shortcut first-keystroke="shift meta b" />
   </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="meta comma" />
@@ -184,10 +219,15 @@
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="TodoViewGroupByFlattenPackage" />
+  <action id="TodoViewGroupByShowModules" />
+  <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
-  <action id="Vcs.ShowMessageHistory">
+  <action id="Uml.ShowDiff" />
+  <action id="Vcs.ShowMessageHistory" />
+  <action id="Vcs.UpdateProject" />
+  <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="context.clear" />
