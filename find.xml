@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.css</mask>
+    <option name="FILE_MASK" value="*.css" />
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
     <mask>*.yaml</mask>
@@ -16,5 +16,6 @@
     <mask>*.py</mask>
     <mask>*.blade.php</mask>
     <mask>*.php</mask>
+    <mask>*.css</mask>
   </component>
 </application>
