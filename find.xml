@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.blade.php" />
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
     <mask>*.yaml</mask>
@@ -10,11 +11,11 @@
     <mask>*.vue</mask>
     <mask>*.js</mask>
     <mask>test*.py</mask>
-    <mask>*.blade.php</mask>
     <mask>*.php</mask>
     <mask>*.css</mask>
     <mask>*.scss</mask>
     <mask>*.jinja</mask>
     <mask>*.py</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
