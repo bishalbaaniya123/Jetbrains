@@ -7,7 +7,6 @@
     <mask>*.pyw</mask>
     <mask>*.html</mask>
     <mask>*.js</mask>
-    <mask>test*.py</mask>
     <mask>*.php</mask>
     <mask>*.css</mask>
     <mask>*.blade.php</mask>
@@ -16,5 +15,6 @@
     <mask>*.vue</mask>
     <mask>*.jinja</mask>
     <mask>*.py</mask>
+    <mask>test*.py</mask>
   </component>
 </application>
