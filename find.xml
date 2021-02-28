@@ -9,12 +9,12 @@
     <mask>*.js</mask>
     <mask>test*.py</mask>
     <mask>*.css</mask>
-    <mask>*.blade.php</mask>
     <mask>*.scss</mask>
     <mask>*.vue</mask>
     <mask>*.php</mask>
     <mask>*.jinja</mask>
     <mask>*.yaml</mask>
     <mask>*.py</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
