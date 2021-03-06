@@ -4,7 +4,7 @@
     <property name="created">2020-04-19T01:24:17</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2020-07-07T23:35:11</property>
+    <property name="modified">2021-03-07T00:34:14</property>
     <property name="originalScheme">WarmNeon copy1</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -1268,6 +1268,13 @@
       <value>
         <option name="FOREGROUND" value="c257d2" />
         <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="SWIFT_TYPEALIAS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="9471ff" />
+        <option name="EFFECT_COLOR" value="536865" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="Static field">
