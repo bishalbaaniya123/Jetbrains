@@ -1,0 +1,136 @@
+<templateSet group="Python">
+  <template name="pp" value="print('this is the $PARAM$', $PARAM$)$END$" description="print with params" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="200" value="self.assertEqual(response.status_code, status.HTTP_200_OK)" description="Status 200" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="201" value="self.assertEqual(response.status_code, status.HTTP_201_CREATED)" description="Status 201" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="204" value="self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)" description="Status 204" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="400" value="self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)" description="Status 400" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="401" value="self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)" description="Status 401" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="403" value="self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)" description="Status 403" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="404" value="self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)" description="Status 404" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="405" value="self.assertEqual(response.status_code, status.HTTP_405_METHOD_NOT_ALLOWED)" description="Status 405" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="scode" value="self.assertEqual(response.status_code, $PARAM$)$END$" description="Status code assertion code" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="sea" value="self.assertEqual($PARAM1$, $PARAM2$)$END$" description="self assert equal" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAM1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="sear" value="self.assertEqual(response.status_code, $PARAM$)$END$" description="self assertEqual response" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="rdg" value="response.data.get('$PARAM$')$END$" description="response data get" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="resp" value="response = self.admin.$REQ_TYPE$($IS_FORMAT$'$PARAM$/$PARAM1$/'$PARAM2$)$END$" description="response all" toReformat="false" toShortenFQNames="true">
+    <variable name="REQ_TYPE" expression="string" defaultValue="&quot;get&quot;" alwaysStopAt="true" />
+    <variable name="IS_FORMAT" expression="string" defaultValue="&quot;f&quot;" alwaysStopAt="true" />
+    <variable name="PARAM" expression="string" defaultValue="&quot;/api&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM2" expression="" defaultValue="&quot;, payload, format='json'&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ann" value="self.assertIsNotNone($PARAM$)$END$" description="assert not none" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="astr" value="self.assertTrue($PARAM$)$END$" description="Assert True" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="asfa" value="self.assertFalse($PARAM$)$END$" description="Assert False" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="spre" value="print('this is the soup.prettify()', soup.prettify())" description="soup prettify" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="seal" value="self.assertEqual(len($PARAM$), $LENGTH_VALUE$)$END$" description="self assert equal length" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LENGTH_VALUE" expression="String" defaultValue="&quot;1&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="soupp" value="soup = self.get_soup(self.block)&#10;print(soup.prettify())$END$" description="soup" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="sele" value="$VAR_NAME$ = $SOUP_NAME$.select('$ELEMENT$')[0]$END$" description="Select from soup" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SOUP_NAME" expression="String" defaultValue="&quot;soup&quot;" alwaysStopAt="true" />
+    <variable name="ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="getcr" value="$VAR_NAME$ = self.$PAGE_OR_WEBSITE$.get_or_create_content('$KEY_NAME$', '$VALUE_TYPE$', options={'default': '$DEFAULT_VALUE$'})" description="get or create content" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PAGE_OR_WEBSITE" expression="String" defaultValue="&quot;homepage&quot;" alwaysStopAt="true" />
+    <variable name="KEY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE_TYPE" expression="String" defaultValue="&quot;text_area_br&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

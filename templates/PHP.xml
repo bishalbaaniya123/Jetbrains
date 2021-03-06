@@ -1,0 +1,8 @@
+<templateSet group="PHP">
+  <template name="printArray" value="echo (implode(&quot;;&quot;, array_map(&#10;            function ($v, $k) { return sprintf(&quot;%s='%s'&quot;, $k, $v); },&#10;            $VAR_NAME$,&#10;            array_keys($VAR_NAME$)&#10;)));&#10;die();" description="print an array with keys and values" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
