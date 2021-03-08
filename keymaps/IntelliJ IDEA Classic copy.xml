@@ -189,6 +189,9 @@
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="ReplaceInPath" />
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="meta h" />
+  </action>
   <action id="RerunTests">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
