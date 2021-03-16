@@ -4,7 +4,7 @@
     <property name="created">2020-04-19T01:24:17</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2021-03-07T00:38:17</property>
+    <property name="modified">2020-07-07T23:35:11</property>
     <property name="originalScheme">WarmNeon copy1</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -1268,51 +1268,6 @@
       <value>
         <option name="FOREGROUND" value="c257d2" />
         <option name="FONT_TYPE" value="3" />
-      </value>
-    </option>
-    <option name="SWIFT_CLASS_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="eb1ea" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="SWIFT_COND_UNCOMPILED">
-      <value>
-        <option name="FOREGROUND" value="76d441" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="SWIFT_EXTERNAL_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="ffe176" />
-      </value>
-    </option>
-    <option name="SWIFT_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="ca8ae5" />
-      </value>
-    </option>
-    <option name="SWIFT_FUNCTION_DECLARATION">
-      <value>
-        <option name="FOREGROUND" value="98ea89" />
-      </value>
-    </option>
-    <option name="SWIFT_PROPERTY">
-      <value>
-        <option name="FOREGROUND" value="b3ffd5" />
-      </value>
-    </option>
-    <option name="SWIFT_STRUCT_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="3cb3b3" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="SWIFT_TYPEALIAS_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="9471ff" />
-        <option name="EFFECT_COLOR" value="536865" />
-        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="Static field">
