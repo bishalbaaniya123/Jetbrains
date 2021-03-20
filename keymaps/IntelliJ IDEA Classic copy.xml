@@ -122,6 +122,7 @@
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
+  <action id="EditorUnSelectWord" />
   <action id="FileChooser.GotoModule" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
@@ -174,6 +175,9 @@
     <keyboard-shortcut first-keystroke="shift alt r" />
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
   <action id="ReplaceInPath" />
   <action id="RerunTests">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
@@ -210,6 +214,7 @@
     <keyboard-shortcut first-keystroke="meta comma" />
     <keyboard-shortcut first-keystroke="ctrl meta s" />
   </action>
+  <action id="SmartUnSelect" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift alt x" />
   </action>
@@ -218,6 +223,7 @@
   </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="TableResult.ShrinkSelection" />
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TodoViewGroupByShowModules" />
   <action id="TodoViewGroupByShowPackages" />
