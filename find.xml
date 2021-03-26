@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Default Changelist" />
-    <option name="defaultScopeName" value="Default Changelist" />
-    <option name="SEARCH_SCOPE" value="Default Changelist" />
-    <option name="FILE_MASK" value="*.scss" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.jinja" />
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
     <mask>*.yaml</mask>
@@ -16,7 +16,7 @@
     <mask>*.js</mask>
     <mask>*.vue</mask>
     <mask>*.py</mask>
-    <mask>*.jinja</mask>
     <mask>*.scss</mask>
+    <mask>*.jinja</mask>
   </component>
 </application>
