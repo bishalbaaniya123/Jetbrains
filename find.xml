@@ -8,7 +8,6 @@
     <mask>*.yaml</mask>
     <mask>*.html</mask>
     <mask>test*.py</mask>
-    <mask>*.php</mask>
     <mask>*.blade.php</mask>
     <mask>*.jinja, *.scss</mask>
     <mask>*.css</mask>
@@ -17,5 +16,6 @@
     <mask>*.scss</mask>
     <mask>*.py</mask>
     <mask>*.jinja</mask>
+    <mask>*.php</mask>
   </component>
 </application>
