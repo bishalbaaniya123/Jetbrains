@@ -1,12 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="global" />
-    <option name="defaultScopeName" value="global" />
-    <option name="SEARCH_SCOPE" value="global" />
-    <option name="FILE_MASK" value="*.jinja" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
-    <mask>*.yaml</mask>
     <mask>*.html</mask>
     <mask>*.blade.php</mask>
     <mask>*.jinja, *.scss</mask>
@@ -18,5 +16,6 @@
     <mask>*.py</mask>
     <mask>test*.py</mask>
     <mask>*.jinja</mask>
+    <mask>*.yaml</mask>
   </component>
 </application>
