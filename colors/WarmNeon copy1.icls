@@ -4,7 +4,7 @@
     <property name="created">2020-04-19T01:24:17</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2021-04-08T16:04:01</property>
+    <property name="modified">2021-04-22T19:04:37</property>
     <property name="originalScheme">WarmNeon copy1</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -1347,7 +1347,7 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ff0000" />
+        <option name="FOREGROUND" value="c15353" />
         <option name="BACKGROUND" value="402d39" />
       </value>
     </option>
