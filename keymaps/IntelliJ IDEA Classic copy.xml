@@ -237,6 +237,7 @@
   <action id="Vcs.UpdateProject" />
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl m" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta e" />
