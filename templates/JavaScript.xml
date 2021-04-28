@@ -182,7 +182,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cop" value="console.log('This is the $PARAM$', $PARAM$)" description="cop" toReformat="false" toShortenFQNames="true">
+  <template name="cop" value="console.log('$END$')" description="cop" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cops" value="console.log('This is the $PARAM$', $PARAM$)" description="Console log with param" toReformat="false" toShortenFQNames="true">
     <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
