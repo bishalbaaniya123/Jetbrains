@@ -3,6 +3,7 @@
     <option name="customScope" value="Default Changelist" />
     <option name="defaultScopeName" value="Default Changelist" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="FILE_MASK" value="*.jinja" />
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
     <mask>*.html</mask>
@@ -15,7 +16,7 @@
     <mask>test*.py</mask>
     <mask>*.py</mask>
     <mask>*.vue</mask>
-    <mask>*.jinja</mask>
     <mask>*.scss</mask>
+    <mask>*.jinja</mask>
   </component>
 </application>
