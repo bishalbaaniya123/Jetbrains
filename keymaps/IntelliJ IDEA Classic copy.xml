@@ -240,6 +240,9 @@
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="ctrl meta e" />
+  </action>
   <action id="Uml.ShowDiff" />
   <action id="Vcs.ShowMessageHistory" />
   <action id="Vcs.UpdateProject" />
