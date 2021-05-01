@@ -124,14 +124,13 @@
   </action>
   <action id="EditorUnSelectWord" />
   <action id="FileChooser.GotoModule" />
-  <action id="Find">
-    <keyboard-shortcut first-keystroke="meta f" />
-    <keyboard-shortcut first-keystroke="alt f3" />
-    <keyboard-shortcut first-keystroke="ctrl f" />
-  </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
     <keyboard-shortcut first-keystroke="shift meta f" />
+  </action>
+  <action id="ForceStepInto">
+    <keyboard-shortcut first-keystroke="shift alt f7" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
   <action id="Git.ResolveConflicts">
     <keyboard-shortcut first-keystroke="shift meta p" />
@@ -157,11 +156,19 @@
     <keyboard-shortcut first-keystroke="end" />
   </action>
   <action id="NewElementSamePlace" />
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
   <action id="NextEditorTab" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift ctrl alt right" />
     <keyboard-shortcut first-keystroke="ctrl meta right" />
     <keyboard-shortcut first-keystroke="ctrl end" />
+  </action>
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="shift f7" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
   <action id="PreviousEditorTab" />
   <action id="PreviousTab">
@@ -188,6 +195,9 @@
     <keyboard-shortcut first-keystroke="f9" />
     <keyboard-shortcut first-keystroke="shift meta r" />
     <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
@@ -235,6 +245,13 @@
   <action id="Vcs.UpdateProject" />
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl m" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta e" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta e" />
   </action>
   <action id="context.clear" />
   <action id="tasks.goto" />

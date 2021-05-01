@@ -24,4 +24,10 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="linkk" value="$VAR_NAME$.data['link_type'] = 'consultation'&#10;$VAR_NAME$.save()$END$" description="Link for test cases" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
