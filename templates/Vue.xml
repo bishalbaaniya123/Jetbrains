@@ -7,4 +7,9 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="scaffolding" value="&lt;template&gt;&#10;    &lt;div&gt;&#10;        $END$&#10;    &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10;export default {&#10;    name: '',&#10;    props: [],&#10;    data () {&#10;        return {}&#10;    },&#10;    methods: {}&#10;}&#10;&lt;/script&gt;&#10;" description="Scaffolding for vue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
