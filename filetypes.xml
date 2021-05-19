@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="newTest.js" type="AUTO_DETECTED" />
       <mapping pattern="ProfileTabs" type="ECMAScript 6" />
       <mapping ext="webp" type="Image" />
       <mapping pattern="nayan" type="JavaScript" />
