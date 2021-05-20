@@ -2,6 +2,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/request_guest_account.xml" value="0.33660040180795747" />
         <entry key="app/src/main/res/layout/search_list.xml" value="0.1" />
       </map>
     </option>
