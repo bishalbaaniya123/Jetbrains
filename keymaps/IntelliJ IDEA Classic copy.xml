@@ -228,6 +228,7 @@
     <keyboard-shortcut first-keystroke="ctrl meta b" />
     <keyboard-shortcut first-keystroke="shift meta b" />
   </action>
+  <action id="ShowProjectStructureSettings" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="meta comma" />
     <keyboard-shortcut first-keystroke="ctrl meta s" />
