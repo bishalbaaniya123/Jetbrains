@@ -56,6 +56,10 @@
   <action id="Console.TableResult.DeleteRows">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="shift ctrl f9" />
     <keyboard-shortcut first-keystroke="shift meta space" />
@@ -199,6 +203,10 @@
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
     <keyboard-shortcut first-keystroke="ctrl c" />
@@ -220,6 +228,7 @@
     <keyboard-shortcut first-keystroke="ctrl meta b" />
     <keyboard-shortcut first-keystroke="shift meta b" />
   </action>
+  <action id="ShowProjectStructureSettings" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="meta comma" />
     <keyboard-shortcut first-keystroke="ctrl meta s" />
@@ -244,6 +253,7 @@
     <keyboard-shortcut first-keystroke="ctrl meta e" />
   </action>
   <action id="Uml.ShowDiff" />
+  <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowMessageHistory" />
   <action id="Vcs.UpdateProject" />
   <action id="XDebugger.MuteBreakpoints">
