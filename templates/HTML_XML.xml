@@ -8,4 +8,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="jv" value="javascript:void(0)" description="javascript:void(0)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Django" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
