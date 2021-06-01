@@ -5,7 +5,7 @@
     </context>
   </template>
   <template name="torem" value="$VAR$rem" description="change px to rem" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR" expression="underscoresToCamelCase(String)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="blockCommentEnd(VAR)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
     </context>
