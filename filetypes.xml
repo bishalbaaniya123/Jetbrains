@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping ext="jinja" type="Jinja2" />
       <mapping ext="txt" type="PLAIN_TEXT" />
       <removed_mapping ext="txt" type="requirements.txt" />
     </extensionMap>
