@@ -3,6 +3,7 @@
     <option name="customScope" value="Default Changelist" />
     <option name="defaultScopeName" value="Default Changelist" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="FILE_MASK" value="*.vue" />
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
     <mask>*.blade.php</mask>
@@ -16,7 +17,7 @@
     <mask>*.jinja</mask>
     <mask>*.scss</mask>
     <mask>*.py</mask>
-    <mask>*.vue</mask>
     <mask>*.js</mask>
+    <mask>*.vue</mask>
   </component>
 </application>
