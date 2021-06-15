@@ -35,7 +35,6 @@
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta alt c" />
-    <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta f4" />
@@ -71,6 +70,10 @@
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="shift meta g" />
+  </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
