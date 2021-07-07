@@ -1,9 +1,10 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping ext="txt" type="PLAIN_TEXT" />
+      <mapping pattern="rte-modal.vue" type="AUTO_DETECTED" />
       <mapping ext="jinja" type="Jinja2" />
-      <mapping ext="txt" type="requirements.txt" />
+      <mapping pattern="rte-modal" type="Vue.js" />
+      <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
