@@ -15,8 +15,8 @@
     <mask>*.jinja</mask>
     <mask>test*.py</mask>
     <mask>*.scss</mask>
-    <mask>*.vue</mask>
     <mask>*.js</mask>
     <mask>*.py</mask>
+    <mask>*.vue</mask>
   </component>
 </application>
