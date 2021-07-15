@@ -13,10 +13,10 @@
     <mask>*.java</mask>
     <mask>*.html</mask>
     <mask>*.jinja</mask>
-    <mask>*.js</mask>
     <mask>test*.py</mask>
     <mask>*.scss</mask>
-    <mask>*.py</mask>
     <mask>*.vue</mask>
+    <mask>*.js</mask>
+    <mask>*.py</mask>
   </component>
 </application>
