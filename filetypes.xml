@@ -5,6 +5,7 @@
       <mapping ext="jinja" type="Jinja2" />
       <mapping pattern="rte-modal" type="Vue.js" />
       <removed_mapping ext="gql" approved="true" type="Graql" />
+      <removed_mapping ext="log" approved="true" type="ANSI Aware" />
       <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
