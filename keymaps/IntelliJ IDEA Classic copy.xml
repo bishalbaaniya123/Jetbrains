@@ -39,6 +39,7 @@
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta alt c" />
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta f4" />
@@ -131,6 +132,12 @@
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
   <action id="EditorUnSelectWord" />
+  <action id="EslintImportCodeStyle">
+    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
+  </action>
+  <action id="ExternalSystem.OpenConfig">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="FileChooser.GotoModule" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
@@ -160,6 +167,12 @@
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="meta alt semicolon" />
   </action>
+  <action id="Jdbc.OpenEditor.Data">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="NavBar-navigate">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="NavBar-selectEnd">
     <keyboard-shortcut first-keystroke="end" />
   </action>
@@ -184,7 +197,13 @@
     <keyboard-shortcut first-keystroke="ctrl meta left" />
     <keyboard-shortcut first-keystroke="ctrl home" />
   </action>
+  <action id="ProjectViewEditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="RecentFiles" />
+  <action id="RemoteHostView.EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="shift alt r" />
@@ -244,9 +263,13 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift meta x" />
   </action>
+  <action id="Sql.EditParameter">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="TableResult.ShrinkSelection" />
+  <action id="TableResult.UnselectPreviousOccurrence" />
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TodoViewGroupByShowModules" />
   <action id="TodoViewGroupByShowPackages" />
@@ -257,6 +280,7 @@
     <keyboard-shortcut first-keystroke="ctrl meta e" />
   </action>
   <action id="Uml.ShowDiff" />
+  <action id="UnselectPreviousOccurrence" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowMessageHistory" />
   <action id="Vcs.UpdateProject" />
