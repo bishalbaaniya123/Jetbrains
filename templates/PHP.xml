@@ -1,0 +1,8 @@
+<templateSet group="PHP">
+  <template name="pa" value="print_r(json_encode($PARAM$));&#10;die();$END$" description="print array in json" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

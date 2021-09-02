@@ -1,0 +1,3 @@
+<templateSet group="mapStateToProps">
+  <template name="mapstate" value="Hello man how are you" description="map state to props" toReformat="false" toShortenFQNames="true" />
+</templateSet>

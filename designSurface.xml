@@ -1,0 +1,17 @@
+<application>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout-v21/login_screen.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/login_screen.xml" value="0.2504528985507246" />
+        <entry key="app/src/main/res/layout/login_screen_2.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/request_guest_account.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/search_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/settings.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/menu/settings.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/xml/preferences.xml" value="0.30885416666666665" />
+      </map>
+    </option>
+  </component>
+</application>
