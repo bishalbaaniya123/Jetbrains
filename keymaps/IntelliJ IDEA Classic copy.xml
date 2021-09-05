@@ -36,6 +36,7 @@
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="shift alt f10" />
     <keyboard-shortcut first-keystroke="alt r" />
+    <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta alt c" />
@@ -201,6 +202,7 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="RecentFiles" />
+  <action id="RecentLocations" />
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
