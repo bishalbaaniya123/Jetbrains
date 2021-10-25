@@ -36,7 +36,6 @@
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="shift alt f10" />
     <keyboard-shortcut first-keystroke="alt r" />
-    <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta alt c" />
@@ -231,6 +230,7 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
