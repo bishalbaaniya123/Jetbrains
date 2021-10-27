@@ -6,6 +6,7 @@
       <mapping pattern="SelfReducers.js" type="JavaScript" />
       <mapping pattern="GroupsTab" type="JavaScript" />
       <mapping pattern="allSkills.js" type="JavaScript" />
+      <mapping pattern="firstCapital.js" type="JavaScript" />
       <mapping pattern="VerticalStepper.js" type="JavaScript" />
       <mapping pattern="GifMain.js" type="JavaScript" />
       <mapping pattern="checkLogin" type="JavaScript" />
@@ -17,7 +18,6 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="user" type="PLAIN_TEXT" />
       <mapping pattern=".roadhogrc" type="PLAIN_TEXT" />
-      <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="otf" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
