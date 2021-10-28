@@ -6,7 +6,6 @@
       <mapping pattern="SelfReducers.js" type="JavaScript" />
       <mapping pattern="GroupsTab" type="JavaScript" />
       <mapping pattern="allSkills.js" type="JavaScript" />
-      <mapping pattern="firstCapital.js" type="JavaScript" />
       <mapping pattern="VerticalStepper.js" type="JavaScript" />
       <mapping pattern="GifMain.js" type="JavaScript" />
       <mapping pattern="checkLogin" type="JavaScript" />
