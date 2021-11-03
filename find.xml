@@ -1,11 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Default Changelist" />
-    <option name="defaultScopeName" value="Default Changelist" />
-    <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
-    <mask>*.blade.php</mask>
     <mask>*.jinja, *.scss</mask>
     <mask>*.css</mask>
     <mask>*.php</mask>
@@ -18,5 +17,6 @@
     <mask>*.js</mask>
     <mask>*.py</mask>
     <mask>*.vue</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
