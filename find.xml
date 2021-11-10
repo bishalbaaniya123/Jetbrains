@@ -5,7 +5,6 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
-    <mask>*.blade.php</mask>
     <mask>*.jinja, *.scss</mask>
     <mask>*.css</mask>
     <mask>*.php</mask>
@@ -18,5 +17,6 @@
     <mask>*.js</mask>
     <mask>*.py</mask>
     <mask>*.vue</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
