@@ -5,4 +5,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="cons" value="echo &quot;&lt;pre&gt;&quot;;&#10;print_r($VAR$);&#10;echo &quot;&lt;/pre&gt;&quot;;&#10;die();&#10;$END$" description="console log" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
