@@ -1,0 +1,5 @@
+<templateSet group="Zen CSS">
+  <template name="d:itb" value="display:inline-table;" description="display:inline-table;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

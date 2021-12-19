@@ -1,0 +1,17 @@
+<templateSet group="HTML/XML">
+  <template name="bff" value="$FUNCTION_NAME$($PARAM$) {&#10;    $END$&#10;}," description="Binding Function" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNCTION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="jv" value="javascript:void(0)" description="javascript:void(0)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Django" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
