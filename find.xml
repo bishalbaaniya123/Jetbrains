@@ -1,0 +1,22 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <mask>*.xml</mask>
+    <mask>*.pyw</mask>
+    <mask>*.jinja, *.scss</mask>
+    <mask>*.css</mask>
+    <mask>*.yaml</mask>
+    <mask>*.java</mask>
+    <mask>*.html</mask>
+    <mask>*.jinja</mask>
+    <mask>test*.py</mask>
+    <mask>*.scss</mask>
+    <mask>*.js</mask>
+    <mask>*.py</mask>
+    <mask>*.vue</mask>
+    <mask>*.php</mask>
+    <mask>*.blade.php</mask>
+  </component>
+</application>
