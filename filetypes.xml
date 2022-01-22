@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="newTest.js" type="AUTO_DETECTED" />
+      <mapping pattern="showIncorrectStems" type="AUTO_DETECTED" />
       <mapping pattern="ProfileTabs" type="ECMAScript 6" />
       <mapping pattern="SelfReducers.js" type="JavaScript" />
       <mapping pattern="GroupsTab" type="JavaScript" />
