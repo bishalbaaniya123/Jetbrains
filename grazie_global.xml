@@ -5,6 +5,7 @@
         <option name="suppressed">
           <set>
             <option value="/Highest Peaks" />
+            <option value="has program" />
           </set>
         </option>
       </SuppressingContext>
