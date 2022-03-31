@@ -15,8 +15,8 @@
     <mask>*.js</mask>
     <mask>*.py</mask>
     <mask>*.vue</mask>
-    <mask>*.php</mask>
     <mask>*.css</mask>
+    <mask>*.php</mask>
     <mask>*.blade.php</mask>
   </component>
 </application>
