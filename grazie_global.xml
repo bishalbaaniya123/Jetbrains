@@ -4,8 +4,9 @@
       <SuppressingContext>
         <option name="suppressed">
           <set>
-            <option value="/Highest Peaks" />
             <option value="Currently studying" />
+            <option value="/Highest Peaks" />
+            <option value="the send" />
           </set>
         </option>
       </SuppressingContext>
