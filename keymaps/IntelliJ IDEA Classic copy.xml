@@ -33,10 +33,6 @@
     <keyboard-shortcut first-keystroke="shift meta h" />
     <keyboard-shortcut first-keystroke="shift meta 9" />
   </action>
-  <action id="ChooseRunConfiguration">
-    <keyboard-shortcut first-keystroke="shift alt f10" />
-    <keyboard-shortcut first-keystroke="alt r" />
-  </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta alt c" />
     <keyboard-shortcut first-keystroke="shift ctrl g" />
@@ -60,6 +56,14 @@
   <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.DeleteRows">
     <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="Console.TableResult.Reload">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="DatabaseView.Refresh">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f9" />
