@@ -206,6 +206,10 @@
   </action>
   <action id="RecentFiles" />
   <action id="RecentLocations" />
+  <action id="Refresh">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -287,6 +291,9 @@
   </action>
   <action id="Uml.ShowDiff" />
   <action id="UnselectPreviousOccurrence" />
+  <action id="UsageView.Rerun">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowMessageHistory" />
   <action id="Vcs.UpdateProject" />
