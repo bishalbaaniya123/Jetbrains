@@ -12,12 +12,12 @@
     <mask>*.jinja</mask>
     <mask>test*.py</mask>
     <mask>*.scss</mask>
-    <mask>*.js</mask>
     <mask>*.py</mask>
     <mask>*.vue</mask>
     <mask>*.css</mask>
     <mask>*.php</mask>
     <mask>*.blade.php</mask>
     <mask>web.php</mask>
+    <mask>*.js</mask>
   </component>
 </application>
