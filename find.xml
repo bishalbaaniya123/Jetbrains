@@ -19,5 +19,6 @@
     <mask>web.php</mask>
     <mask>*.js</mask>
     <mask>*.blade.php</mask>
+    <mask>*.jsx</mask>
   </component>
 </application>
