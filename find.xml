@@ -11,7 +11,6 @@
     <mask>*.html</mask>
     <mask>*.jinja</mask>
     <mask>test*.py</mask>
-    <mask>*.scss</mask>
     <mask>*.py</mask>
     <mask>*.vue</mask>
     <mask>*.css</mask>
@@ -20,5 +19,6 @@
     <mask>*.js</mask>
     <mask>*.blade.php</mask>
     <mask>*.jsx</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
