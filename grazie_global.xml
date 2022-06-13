@@ -4,8 +4,10 @@
       <SuppressingContext>
         <option name="suppressed">
           <set>
+            <option value="Currently studying" />
+            <option value="the send" />
             <option value="/Highest Peaks" />
-            <option value="has program" />
+            <option value="profile inside of credential" />
           </set>
         </option>
       </SuppressingContext>
