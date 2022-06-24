@@ -194,4 +194,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="ubeConsole" value="let x = {&#10;        eventName,&#10;        clickLocation: state.clickLocation,&#10;        clickType: state.clickType,&#10;        content: state.content,&#10;        pageview_Type: state.pageview_Type,&#10;        pageviewType: state.pageviewType,&#10;        nodeType: state.nodeType,&#10;        schemaVersion: state.schemaVersion,&#10;        viewLocation: state.viewLocation,&#10;    }&#10;&#10;    console.table(x);&#10;    setTimeout(() =&gt; {&#10;        console.clear()&#10;    }, 6500)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
