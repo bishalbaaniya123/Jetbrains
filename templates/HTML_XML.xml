@@ -14,7 +14,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="windowVariables" value="window.showOnBoardingFlow = 'true';&#10;&#9;&#9;&#9;window.growthOnBoardingFlow = 'on';&#10;&#9;&#9;&#9;window.growthEnterKeyInQuestionnaire ='on'&#10;&#9;&#9;&#9;// TODO: This variable needs to come from the&#10;&#9;&#9;&#9;window.onboardingVariant = 'v1'&#10;      window.growthRemoveExitToTree = 'off'&#10;&#9;&#9;&#9;window.growthFullScreenSplitNode = 'on'&#10;&#9;&#9;&#9;window.growthPickRelatives === 'variant1'" toReformat="true" toShortenFQNames="true">
+  <template name="windowVariables" value="window.showOnBoardingFlow = 'true';&#10;&#9;&#9;&#9;window.growthOnBoardingFlow = 'on';&#10;&#9;&#9;&#9;window.growthEnterKeyInQuestionnaire ='on'&#10;&#9;&#9;&#9;// TODO: This variable needs to come from the&#10;&#9;&#9;&#9;window.onboardingVariant = 'v1'&#10;      window.growthRemoveExitToTree = 'off'&#10;&#9;&#9;&#9;window.growthFullScreenSplitNode = 'on'&#10;&#9;&#9;&#9;window.growthPickRelatives = 'variant1'" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
