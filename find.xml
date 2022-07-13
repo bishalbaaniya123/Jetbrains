@@ -17,8 +17,8 @@
     <mask>*.php</mask>
     <mask>web.php</mask>
     <mask>*.blade.php</mask>
-    <mask>*.scss</mask>
     <mask>*.js</mask>
     <mask>*.jsx</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
