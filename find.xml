@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.jsx" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
     <mask>*.jinja, *.scss</mask>
@@ -18,9 +18,9 @@
     <mask>*.php</mask>
     <mask>web.php</mask>
     <mask>*.blade.php</mask>
-    <mask>*.js</mask>
     <mask>*.json</mask>
     <mask>*.scss</mask>
     <mask>*.jsx</mask>
+    <mask>*.js</mask>
   </component>
 </application>
