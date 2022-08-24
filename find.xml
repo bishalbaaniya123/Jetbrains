@@ -16,10 +16,10 @@
     <mask>*.css</mask>
     <mask>*.php</mask>
     <mask>web.php</mask>
-    <mask>*.blade.php</mask>
     <mask>*.json</mask>
     <mask>*.scss</mask>
     <mask>*.js</mask>
     <mask>*.jsx</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
