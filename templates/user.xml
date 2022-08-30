@@ -1,0 +1,38 @@
+<templateSet group="user">
+  <template name="efunc" value="exports.$FUNC_NAME$ = async (req, res) =&gt; {&#10;    $END$&#10;};" description="exportsFunction" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNC_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="callapi" value="api.sendCashRequest($VAL$)&#10;    .then(res =&gt; {&#10;        console.log(&quot;This is the res&quot;, res);&#10;        $END$&#10;    })&#10;    .catch(err =&gt; {&#10;        console.log(&quot;This is the err&quot;, err);&#10;    })&#10;" description="Calls Api in react" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pr" value="print('$PARAM$')$END$" description="Print" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="bff" value="$FUNCTION_NAME$($PARAM$) {&#10;  $END$&#10;}," description="new function" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNCTION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="linkk" value="$VAR_NAME$.data['link_type'] = 'consultation'&#10;$VAR_NAME$.save()$END$" description="Link for test cases" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="sss" value="&lt;span class=&quot;font-weight-bold&quot;&gt;REPLACEME&lt;/span&gt;$END$" description="Span font weight bold" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

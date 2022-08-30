@@ -1,0 +1,203 @@
+<templateSet group="JavaScript">
+  <template name="mapstate" value="const mapStateToProps = (state) =&gt; {&#10;    return {}&#10;};" description="prints map state to props" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="conw" value="console.warn(&quot;$END$&quot;);" description="Console warn" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="se" value="this.setState({&#10;    $END$&#10;});" description="this.setState for react" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cdm" value="componentDidMount() {&#10;    $END$&#10;}" description="Component Did Mount" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cwm" value="componentWillMount() {&#10;    $END$&#10;}" description="component will mount" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ts" value="this.state.$END$" description="this.state." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="te" value="&lt;Text&gt;&#10;    $END$&#10;&lt;/Text&gt;" description="Text react native" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="st" value="style={styles.$END$} " description="style react native" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cond" value="{this.state.$STATE$ ? &#10;    $COMP$&#10;    : &#10;    $END$&#10;}" description="conditional rendering in react" toReformat="false" toShortenFQNames="true">
+    <variable name="STATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cost" value="const {$PARAM$} = this.state;$END$" description="constant state" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bf" value="$FUNC_NAME$ = ($PARAMS$) =&gt; {&#10;    $END$&#10;};" description="binding function" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNC_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="vi" value="&lt;View&gt;&#10;    $END$&#10;&lt;/View&gt;" description="View React native" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="flexx" value="display: &quot;flex&quot;,&#10;flex: 1,&#10;alignItems: &quot;center&quot;,&#10;justifyContent: &quot;center&quot;,&#10;$END$" description="flex style" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mapp" value="{this.state.$ARRAY$.map((item, i) =&gt; (&#10;    $END$&#10;))}" description="this.state.map in react" toReformat="false" toShortenFQNames="true">
+    <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ctr" value="constructor(props) {&#10;    super(props);&#10;    this.state = {&#10;        $END$&#10;    }&#10;}" description="constructor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="prevse" value="this.setState(prevState =&gt; ({&#10;    ...prevState,&#10;    $END$&#10;}));" description="Prevstate setstate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="js" value="$KEY$: &quot;$VALUE$&quot;,$END$" description="json" toReformat="false" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="prevsearr" value="this.setState(prevState =&gt; ({&#10;    ...prevState,&#10;    $KEY$: [&#10;        ...prevState.$KEY$.slice(0, index),&#10;        {...prevState.$KEY$[index], active: true},&#10;        ...prevState.$KEY$.slice(index + 1)&#10;    ]&#10;}));$END$" description="Prev state setstate of an array" toReformat="false" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="prak" value="{&#10;    status: $STATUS$,&#10;    data: {$DATA$},&#10;    message: &quot;$MESSAGE$&quot;&#10;}$END$" description="prak template" toReformat="false" toShortenFQNames="true">
+    <variable name="STATUS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="retres" value="return res.status($STATUS_CODE$)&#10;  .json({&#10;    status: 0,&#10;    data: {},&#10;    message: '$MESSAGE$'&#10;  });$END$" description="Return res json without status code" toReformat="false" toShortenFQNames="true">
+    <variable name="STATUS_CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="retressuccess" value="return res.json({&#10;  status: 1,&#10;  data: {$DATA$},&#10;  message: '$MESSAGE$'&#10;});$END$" description="with no status code" toReformat="false" toShortenFQNames="true">
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="intser" value="if(err){&#10;  return internalServerError(res);&#10;}&#10;$END$" description="Internal Server Error" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="consp" value="console.log(&quot;This is the $PARAMETER$&quot;, $PARAMETER$);$END$" description="console log with a parameter" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMETER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="intsermsg" value="return internalServerErrorWithMessage(res, e);&#10;$END$" description="Internal Server Error With Message" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tr" value="try {&#10;    $END$&#10;} catch (e) {&#10;    return internalServerErrorWithMessage(res, e);&#10;}" description="Try Catch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="valid" value="if (req.validationErrors()) {&#10;  return validationError(req.validationErrors(), res);&#10;}&#10;$END$" description="Validation error check" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="check" value="req.checkBody('$VALUE$')&#10;  .notEmpty();&#10;$END$" description="Check body" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cosp" value="const {$KEY$} = this.props;&#10;$END$" description="Destructuring OF props" toReformat="false" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="trr" value="try {&#10;    /**&#10;     * expected req.body&#10;     * {&#10;            &quot;businessType&quot;: {&#10;                &quot;name&quot;: &quot;Name of the business type&quot;&#10;            },&#10;            &quot;type&quot;: &quot;BUSINESS&quot;&#10;        }&#10;     */&#10;    &#10;    req.checkBody('businessType')&#10;        .notEmpty();&#10;    &#10;    req.checkBody('type')&#10;        .notEmpty();&#10;    &#10;    if (req.validationErrors()) {&#10;        return validationError(req.validationErrors(), res);&#10;    }&#10;    &#10;    $END$&#10;    return res.json({&#10;        status: 1,&#10;        data: {},&#10;        message: '$MESSAGE$'&#10;    });&#10;&#10;} catch (e) {&#10;    return internalServerErrorWithMessage(res, e);&#10;}" description="try catch with all validation" toReformat="false" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="hp" value="this.props.history.push({&#10;    pathname: '$PARAM$'&#10;})$END$" description="this.props.history.push" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="conf" value="console.log(&quot;from $FUNC_NAME$&quot;);$END$" description="console log plut FROM" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNC_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iff" value="if ($COND$) {&#10;    $END$&#10;}" description="if condition" toReformat="false" toShortenFQNames="true">
+    <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cop" value="console.log('$PARAM$')$END$" description="cop" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cops" value="console.log('This is the $PARAM$', $PARAM$)" description="Console log with param" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ubeConsole" value="let x = {&#10;    eventName,&#10;    clickLocation: state.clickLocation,&#10;    clickType: state.clickType,&#10;    content: state.content,&#10;    pageview_Type: state.pageview_Type,&#10;    pageviewType: state.pageviewType,&#10;    nodeType: state.nodeType,&#10;    schemaVersion: state.schemaVersion,&#10;    viewLocation: state.viewLocation,&#10;}&#10;&#10;// console.table(x);&#10;if (x.schemaVersion === 4) {&#10;    console.log(`You viewed &lt;&lt;&lt;${x.pageview_Type}&gt;&gt;&gt; for &lt;&lt;&lt;${x.nodeType}&gt;&gt;&gt;`)&#10;} else if (x.schemaVersion === 11) {&#10;    console.log(`You clicked &lt;&lt;&lt;${x.clickType}&gt;&gt;&gt; for &lt;&lt;&lt;${x.nodeType}&gt;&gt;&gt; at &lt;&lt;&lt;${x.content}&gt;&gt;&gt;`)&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

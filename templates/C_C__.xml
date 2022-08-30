@@ -1,0 +1,8 @@
+<templateSet group="C/C++">
+  <template name="cons" value="cout &lt;&lt; &quot;This is the $PARAM$: &quot; &lt;&lt; $PARAM$ &lt;&lt; endl;" description="console for c++" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="cpp" value="true" />
+    </context>
+  </template>
+</templateSet>

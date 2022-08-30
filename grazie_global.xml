@@ -1,0 +1,16 @@
+<application>
+  <component name="GraziConfig">
+    <option name="suppressingContext">
+      <SuppressingContext>
+        <option name="suppressed">
+          <set>
+            <option value="Currently studying" />
+            <option value="the send" />
+            <option value="/Highest Peaks" />
+            <option value="profile inside of credential" />
+          </set>
+        </option>
+      </SuppressingContext>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,25 @@
+<templateSet group="HTML/XML">
+  <template name="bff" value="$FUNCTION_NAME$($PARAM$) {&#10;    $END$&#10;}," description="Binding Function" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNCTION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="jv" value="javascript:void(0)" description="javascript:void(0)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Django" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="windowVariables" value="window.showOnBoardingFlow = 'true';&#10;&#9;&#9;&#9;window.growthOnBoardingFlow = 'on';&#10;&#9;&#9;&#9;window.growthEnterKeyInQuestionnaire ='on'&#10;&#9;&#9;&#9;// TODO: This variable needs to come from the&#10;&#9;&#9;&#9;window.onboardingVariant = 'v1'&#10;      window.growthRemoveExitToTree = 'off'&#10;&#9;&#9;&#9;window.growthFullScreenSplitNode = 'on'&#10;&#9;&#9;&#9;window.growthPickRelatives = 'variant1'&#10;&#9;&#9;&#9;window.growthQuestionnaireCensusHintPoll = 'variant3'" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
