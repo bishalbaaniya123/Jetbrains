@@ -21,8 +21,6 @@
       <mapping pattern=".roadhogrc" type="PLAIN_TEXT" />
       <mapping ext="otf" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
-      <removed_mapping ext="txt" type="PLAIN_TEXT" />
-      <mapping ext="txt" type="requirements-pro.txt" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
@@ -33,6 +31,7 @@
       <removed_mapping ext="php" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="properties" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <mapping pattern=".j2" type="YAML_EX" />
       <mapping pattern=".jinja" type="YAML_EX" />
