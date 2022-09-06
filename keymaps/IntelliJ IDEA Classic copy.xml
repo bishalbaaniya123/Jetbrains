@@ -27,15 +27,16 @@
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="ChangesView.GroupBy.Module" />
   <action id="ChangesView.ShelveSilently">
     <keyboard-shortcut first-keystroke="shift meta h" />
     <keyboard-shortcut first-keystroke="shift meta 9" />
-  </action>
-  <action id="ChooseRunConfiguration">
-    <keyboard-shortcut first-keystroke="shift alt f10" />
-    <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta alt c" />
@@ -61,6 +62,14 @@
   <action id="Console.TableResult.DeleteRows">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
+  <action id="Console.TableResult.Reload">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="DatabaseView.Refresh">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="shift meta s" />
@@ -75,6 +84,16 @@
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="Documentation.Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
+  <action id="Documentation.Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
     <keyboard-shortcut first-keystroke="shift meta g" />
@@ -147,6 +166,11 @@
     <keyboard-shortcut first-keystroke="shift alt f7" />
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
   <action id="Git.ResolveConflicts">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
@@ -202,6 +226,10 @@
   </action>
   <action id="RecentFiles" />
   <action id="RecentLocations" />
+  <action id="Refresh">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -258,6 +286,7 @@
     <keyboard-shortcut first-keystroke="meta comma" />
     <keyboard-shortcut first-keystroke="ctrl meta s" />
   </action>
+  <action id="SmartTypeCompletion" />
   <action id="SmartUnSelect" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift alt x" />
@@ -283,6 +312,9 @@
   </action>
   <action id="Uml.ShowDiff" />
   <action id="UnselectPreviousOccurrence" />
+  <action id="UsageView.Rerun">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowMessageHistory" />
   <action id="Vcs.UpdateProject" />
