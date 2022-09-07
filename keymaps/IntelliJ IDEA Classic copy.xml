@@ -27,6 +27,11 @@
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="ChangesView.GroupBy.Module" />
   <action id="ChangesView.ShelveSilently">
@@ -79,6 +84,16 @@
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="Documentation.Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
+  <action id="Documentation.Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
     <keyboard-shortcut first-keystroke="shift meta g" />
@@ -150,6 +165,11 @@
   <action id="ForceStepInto">
     <keyboard-shortcut first-keystroke="shift alt f7" />
     <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
   </action>
   <action id="Git.ResolveConflicts">
     <keyboard-shortcut first-keystroke="shift meta p" />
@@ -266,6 +286,7 @@
     <keyboard-shortcut first-keystroke="meta comma" />
     <keyboard-shortcut first-keystroke="ctrl meta s" />
   </action>
+  <action id="SmartTypeCompletion" />
   <action id="SmartUnSelect" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift alt x" />
