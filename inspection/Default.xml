@@ -35,7 +35,7 @@
   <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoredPackages">
       <value>
-        <list size="145">
+        <list size="146">
           <item index="0" class="java.lang.String" itemvalue="ndg-httpsclient" />
           <item index="1" class="java.lang.String" itemvalue="pycparser" />
           <item index="2" class="java.lang.String" itemvalue="redis" />
@@ -181,6 +181,7 @@
           <item index="142" class="java.lang.String" itemvalue="django-taggit" />
           <item index="143" class="java.lang.String" itemvalue="factory" />
           <item index="144" class="java.lang.String" itemvalue="pandas" />
+          <item index="145" class="java.lang.String" itemvalue="googletrans" />
         </list>
       </value>
     </option>
