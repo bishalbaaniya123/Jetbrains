@@ -11,7 +11,6 @@
       <mapping pattern="checkLogin" type="JavaScript" />
       <mapping pattern="firstCapital.js" type="JavaScript" />
       <mapping pattern="nayan" type="JavaScript" />
-      <mapping ext="jinja" type="Jinja2" />
       <mapping pattern="allSkills" type="Native" />
       <mapping pattern="test.txt" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
@@ -34,6 +33,7 @@
       <removed_mapping ext="php" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="properties" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <mapping ext="jinja" type="Jinja2" />
       <mapping pattern=".j2" type="YAML_EX" />
       <mapping pattern=".jinja" type="YAML_EX" />
     </extensionMap>
