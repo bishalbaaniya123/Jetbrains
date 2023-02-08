@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.py" />
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
     <mask>*.jinja, *.scss</mask>
@@ -11,7 +12,6 @@
     <mask>*.html</mask>
     <mask>*.jinja</mask>
     <mask>test*.py</mask>
-    <mask>*.py</mask>
     <mask>*.vue</mask>
     <mask>*.css</mask>
     <mask>web.php</mask>
@@ -21,5 +21,6 @@
     <mask>*.jsx</mask>
     <mask>*.php</mask>
     <mask>*.blade.php</mask>
+    <mask>*.py</mask>
   </component>
 </application>
