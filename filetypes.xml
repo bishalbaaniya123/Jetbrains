@@ -32,7 +32,10 @@
       <removed_mapping ext="php" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="properties" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="jinja" type="Jinja2" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="space.kts" type="Kotlin" />
       <mapping pattern=".j2" type="YAML_EX" />
       <mapping pattern=".jinja" type="YAML_EX" />
     </extensionMap>
