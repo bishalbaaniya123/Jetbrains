@@ -316,6 +316,7 @@
   <action id="UnselectPreviousOccurrence" />
   <action id="UsageView.Rerun">
     <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowMessageHistory" />
